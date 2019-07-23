@@ -1,3 +1,4 @@
+var winWidth = $(window).width()
 $(function(){
 
 //Accordion
@@ -14,7 +15,7 @@ $(this).addClass('active');
 $(this).next().slideDown();
   })
 
-
+  if(winWidth<=967){
   $(".rightMenu > ul > li > a").click(function(){
     if ($(this).hasClass('active')==true){
     $(".rightMenu > ul > li > a").removeClass('active');
@@ -26,7 +27,7 @@ $(this).next().slideDown();
     $(this).addClass('active');
     $(this).next().slideDown();
       })
-
+    }
 
 $(document).ready(function(){
   var $firststatus = $('.firstcount');
