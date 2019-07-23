@@ -14,6 +14,20 @@ $(this).addClass('active');
 $(this).next().slideDown();
   })
 
+
+  $(".rightMenu > ul > li > a").click(function(){
+    if ($(this).hasClass('active')==true){
+    $(".rightMenu > ul > li > a").removeClass('active');
+    $(this).next().slideUp();
+    return false;	
+      }
+    $(".dropdown").slideUp();
+    $(".rightMenu > ul > li > a").removeClass('active');
+    $(this).addClass('active');
+    $(this).next().slideDown();
+      })
+
+
 $(document).ready(function(){
   var $firststatus = $('.firstcount');
   var $laststatus = $('.lastcount');

@@ -441,14 +441,20 @@
 
 
     .main-header .rightMenu{width:100%;height:100%;background:#fff;display: block;position: fixed;top: 100%;left: 0;z-index: 9999;overflow: auto;padding-bottom: 90px;padding-top: 50px;}
-    .main-header .rightMenu li{width:100%;float:left;padding: 0;}
+    
+    .main-header .rightMenu > ul > li{width:100%;float:left;padding: 0;}
+
     .main-header .rightMenu li:last-child{display: none;}
-    .main-header .rightMenu li ul.dropdown{display: none;width: 100%;position: relative;z-index: 2;background: #ed3237;top: 0;left: 0;opacity: 0;visibility: hidden;}
-    .main-header .rightMenu li:hover ul.dropdown{display: block;}
+
+    .main-header .rightMenu li ul.dropdown{display: none; width: 100%; float: left; position: relative; z-index: 2;background: #ed3237;
+        top: 0;left: 0;opacity: 1;visibility:initial; transition:initial;}
+
+    .main-header .rightMenu li:hover ul.dropdown{opacity: 1;visibility:initial; transition: initial;}
+    
     .main-header .rightMenu li ul.dropdown li{background: #ed3237;padding: 0 20px;}
-    .main-header .rightMenu li a {font-size: 14px;width: 100%;float: left;text-align: left;padding: 15px;}
-    .main-header .rightMenu li a span{position: absolute;right: 10px;top:18px;}
-    .main-header .rightMenu li a:hover span{top:21px;}
+    .main-header .rightMenu > ul > li a {font-size: 14px;width: 100%;float: left;text-align: left;padding: 15px;}
+    .main-header .rightMenu > ul > li a span{position: absolute;right: 10px;top:18px;}
+    .main-header .rightMenu > ul > li a.active span{top:21px;}
     .main-header .rightMenu .closeButton {position: absolute;right: 0;top: 0;padding: 10px;background: #ed3237;}
     /*air purifier*/
 
