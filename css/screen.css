@@ -154,6 +154,12 @@
     .moquito-product-feature .box{padding: 20px;}
     .moquito-product-feature .box li{font-size: 13px;}
     /*air purifier mosquito*/
+    .companydetailBanner .cd-despriction h2{font-size: 34px;}
+    .companydetailBanner .cd-despriction p {font-size: 20px;line-height: 32px;}
+    .companyaboutSharp .aboutsharp_despriction{ width: 50%;}
+    .companyprofile .companyprofile_despriction p{margin-bottom: 10px;}
+    .companyprofile .companyprofile_despriction{ padding:20px;}
+    .companyaboutSharp .aboutsharp_despriction p {font-size: 16px;line-height: 26px;}
 }
 
 
@@ -298,15 +304,24 @@
 .accLeftSection h3{font-size: 24px;}
 .accLeftSection h3:before{ width: 5px;left: -15px;height: 100%; top: 0;}
 
-.companydetailBanner .cd-despriction{width: 100%;top: 3%; display:inherit; padding: 0 5%; left: 0;}
+.companydetailBanner .cd-despriction{width: 85%;top: 10%; display:inherit; padding: 0 5%; left: 0;}
 .companydetailBanner .cd-despriction h2{font-size: 26px;}
 .companydetailBanner .cd-despriction p{    font-size: 15px;    line-height: normal;}
 
-.companyaboutSharp .aboutsharp_despriction{ width: 70%; }
+
+.companyaboutSharp{ margin: 20px 0;}
+.companyaboutSharp .aboutsharp_despriction{ width: 50%; }
 .companyaboutSharp .aboutsharp_despriction h2{font-size:18px; padding-bottom: 5px}
-.companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;}
+.companyaboutSharp .aboutsharp_despriction p{font-size: 16px; line-height: normal;}
 
+.companyprofile{margin-bottom: 30px;}
+.companyprofile .companyprofile_despriction{ width: 70%; padding:20px; height: 230px; display: inherit; overflow: hidden;}
+.companyprofile .companyprofile_despriction h2{font-size:18px; padding-bottom: 5px; text-transform: none;}
+.companyprofile .companyprofile_despriction p{font-size: 13px; line-height: normal; margin-bottom: 10px;}
 
+.oursocialSection{ padding:0 5%; margin-bottom: 30px;}
+.youtubeIcon{ display: none;}
+.oursocialSection .oursocial_despriction{ width: 100%; left: 0; display: inherit; position: relative; margin-bottom:10px;}
 
 }
 
@@ -463,7 +478,10 @@
 
 /*Case Studies*/
  .accLeftSection input{ width: 100%; border-right: 1px solid #ed3237; margin-bottom: 10px;}
- .accLeftSection p{ margin:5px 0; }   
+ .accLeftSection p{ margin:5px 0; }
+ .companydetailBanner .cd-despriction{width: 100%; top: 3%;} 
+ .companyaboutSharp .aboutsharp_despriction {width: 70%;}
+ .companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;}  
 }
 
 @media screen and (max-width: 320px){
