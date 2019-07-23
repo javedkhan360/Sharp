@@ -1,0 +1,486 @@
+@media screen and (max-width: 1600px){
+    /*home page*/
+    .CertificateSection .rightSection .slick-next{right: 18%}
+    /*home page*/
+
+
+    /*air purifier*/
+    .container{width: 95%;}
+    .top-header li a{font-size: 10px;}
+    .main-header .rightMenu li{padding-right: 30px;}
+    .main-header .rightMenu li a{font-size:16px;}
+    .main-header .rightMenu li ul.dropdown li a{font-size: 16px;}
+    .brandLogo{width: 43%;}
+    .techonologySection .technology-product-detail{padding-top: 100px;}
+    .techonologySection .technology-product-detail .button{bottom: 265px;}
+    .whySharpSection{padding: 70px;}
+    /*air purifier*/
+}
+
+
+
+
+@media screen and (max-width: 1440px){
+    /*home page css*/
+    .container{width: 100%;}
+    .bannerSection .box .banner-content{top: 50px;left:100px;}
+    .bannerSection .box .banner-content .bannerButton{margin-top: 50px;}
+    .companyReviewSection{margin-top: -50px;}
+    .bannerSection .slick-dots{bottom: 80px;}
+    .satisfyConsumerSection .consumerArticle .consumerDespreption p{font-size: 14px;line-height: 25px;}
+    .satisfyConsumerSection .consumerArticle .slick-prev{left: 60%;}
+    .satisfyConsumerSection .consumerArticle .slick-next{right: 33%;}
+    .footerSection .footerOpation ul{padding-left: 0px;}
+    .footerSection .footerOpation li{padding-bottom: 18px;}
+    .footerSocialStrip .leftSection ul{padding-left: 0;}
+    .footerSocialStrip .leftSection li{padding: 0 15px;}
+    .companyReviewSection li .rightSection{padding-left: 30px;font-size: 19px;line-height: 28px;}
+    .companyReviewSection li .leftSection{width:30%;}
+    .companyReviewSection li .rightSection{width:70%;}
+    /*home page css*/
+
+
+    /*air-purifier*/
+    .brandLogo{width: 47%;}
+    .techonologySection .technology-product-detail .button{bottom: 235px;}
+    .bannerProductDetails .rightSection h1, .techonologySection h2, .productSlider .box-slide .slide-despriction h2, .innerProductRange h1, .whySharpSection h2{font-size: 35px;}
+    .bannerProductDetails .rightSection p{font-size: 22px;}
+    /*.button a{font-size: 15px;padding: 10px 15px;}*/
+    .bannerProductDetails .leftSection img{width: 25%;}
+    /*air-purifier*/
+}
+
+@media screen and (max-width: 1366px){
+    /*home page*/
+    .CertificateSection .rightSection .slick-next{right: 8%}
+    /*home page*/
+
+
+    /*air-purifier*/
+    .brandLogo{width: 50%;padding: 20px 40px;}
+    .techonologySection p{width: 65%}
+    .techonologySection .technology-product-detail li{font-size:16px;}
+    .innerProductRange .productDescription p{font-size: 16px;}
+    /*air-purifier*/
+
+    /*air purifier mosquite*/
+    .moquito-product-feature .box{width: 33.10%;}
+    /*air purifier mosquite*/
+
+}
+
+
+@media screen and (max-width: 1280px){
+    /*home page css*/
+    .companyReviewSection li .rightSection{font-size: 16px;line-height: 24px;}
+    .CertificateSection .leftSection .mainHeading{font-size: 38px;}
+    .CertificateSection .leftSection .mainHeading span{margin-top: 20px;}
+    .satisfyConsumerSection .consumerArticle .slick-prev{left: 60%;}
+    .satisfyConsumerSection .consumerArticle .slick-next{right: 35%;}
+    .CertificateSection .rightSection .slick-next{right: 4%}
+    /*home page css*/
+
+    /*air-purifier*/
+    .main-header .rightMenu li{padding-right: 20px;}
+    .brandLogo{width: 53%;}
+    .techonologySection .technology-product-detail .button {bottom: 207px;right: 70px;}
+    /*air-purifier*/
+}
+
+
+
+@media screen and (max-width: 1100px){
+    /*home page css*/
+    .companyReviewSection li{padding: 30px 20px;}
+    .bannerSection .box .banner-content{top: 20px;left: 40px;}
+    .bannerSection .box .banner-content h1 span{font-size: 40px;}
+    .bannerSection .box .banner-content h1{font-size: 40px;}
+    .productRangeSection .productDescription p{font-size: 14px;left: 20px;bottom: 20px;}
+    .productRangeSection .productDescription .arrow{width: 40px;right: 20px;bottom: 18px;}
+    .productRangeSection h1{font-size: 30px;}
+    .satisfyConsumerSection .sectionHeading h1{font-size: 30px;}
+    .satisfyConsumerSection .sectionHeading a{top: -3px;}
+    .satisfyConsumerSection .consumerArticle .consumerDespreption p {font-size: 11px;line-height: 19px;height: 120px;}
+    .satisfyConsumerSection .consumerArticle .consumerDespreption span{margin-top: 20px;}
+    .satisfyConsumerSection .consumerArticle .consumerDespreption{padding: 20px;}
+    .aboutSharpSection .banner-content p{font-size: 14px;line-height: 20px;}
+    .aboutSharpSection .banner-content .bannerButton{margin-top: 30px;}
+    .aboutSharpSection .banner-content h1{font-size: 30px;margin-bottom: 20px;}
+    .satisfyConsumerSection .consumerArticle .slick-prev{left: 62%;margin-top: 199px;}
+    .satisfyConsumerSection .consumerArticle .slick-next{right: 29%;margin-top: 199px;}
+    .companyReviewSection{padding: 0 44px;}
+    .aboutSharpSection .banner-content{left: 60px;}
+    .aboutSharpSection .aboutProduct{right: 33%;}
+    .CertificateSection .leftSection{padding: 40px 21px;}
+    .CertificateSection .leftSection p{width: 450px;}
+    .CertificateSection .rightSection img{width: 90%}
+    .footerSocialStrip .leftSection{width: 100%;}
+    .footerSocialStrip .rightSection{width: 100%;margin-top: 10px;}
+    .videoSection .leftSection{width: 100%;}
+    .videoSection .rightSection{width: 100%;margin: 0;}
+    .satisfyConsumerSection{margin-top: 100px;}
+    .CertificateSection .rightSection .slick-next{right: 0}
+    .bannerSection .slick-active.box .banner-content h1{margin-bottom: 10px;line-height: 45px;}
+    .bannerSection .box .banner-content .bannerButton{margin-top: 10px;}
+    .main-header .rightMenu li #content{right: -35px;}
+    /*home page css*/
+
+
+    /*air purifier*/
+    .top-header{padding: 10px 20px;}
+    .innerProductRange .productDescription p{font-size: 14px;left: 20px;bottom: 20px;}
+    .innerProductRange .productDescription .arrow{width: 40px;right: 20px;bottom: 18px;}
+    .innerProductRange h1{font-size: 30px;}
+    .top-header li{padding: 0 10px;}
+    .main-header .logo{width: 20%;}
+    .main-header .rightMenu{width: 80%}
+    .main-header .rightMenu li a{font-size: 14px;}
+    .main-header{padding: 0 20px;}
+    .main-header .rightMenu li a span{background-position-y: 3px;}
+    .brandLogo{width: 66%;}
+    .bannerProductDetails .rightSection h1, .techonologySection h2, .productSlider .box-slide .slide-despriction h2, .innerProductRange h1, .whySharpSection h2{font-size: 25px}
+    .bannerProductDetails .rightSection p{font-size: 16px;}
+    .button-plain{font-size:13px;padding: 10px 50px;padding-left: 20px;}
+    .techonologySection .technology-product-detail .button {bottom: 167px;right: 45px;}
+    .techonologySection p, .productSlider .box-slide .slide-despriction p, .innerProductRange > p{font-size: 16px;line-height: 25px;}
+    .techonologySection .technology-product-detail ul{width: 90%;left: 10%;}
+    .techonologySection .technology-product-detail li{font-size:14px;}
+    .whySharpSection{padding: 30px;}
+    /*air purifier*/
+
+
+    /*air purifier mosquito*/
+    .air-mosquito-product li .mosquito-productImg{width: 30%;}
+    .moquito-product-feature .box{padding: 20px;}
+    .moquito-product-feature .box li{font-size: 13px;}
+    /*air purifier mosquito*/
+}
+
+
+@media screen and (max-width: 900px){
+    /*Mobile Navigation*/
+    .mobileNavigation{width: 100%;position: fixed;bottom: 0;left: 0;z-index: 9999;box-shadow: 0px 0px 20px #c1c1c1;background: #fff;display: block;}
+    .mobileNavigation li{width: 25%;float: left;text-align: center;border-right: 1px solid #f5f5f5;padding: 10px 0 15px;}
+    .mobileNavigation li span{width: 100%;float: left;padding-top: 5px;font-size: 14px;color: #000;font-family: 'GOTHICB';text-transform: capitalize;}
+
+    .satisfyConsumerSection .consumerArticle .slick-prev{display: none !important;}
+    .satisfyConsumerSection .consumerArticle .slick-next{display: none !important;}
+    .consumerArticle .slider-progress{left: 48%;}
+    .consumerArticle.videoProgresss .slider-progress{left: 40%;}
+    /* Mobile Navigation end */
+
+
+
+
+    /*home page css*/
+    .main-header .rightMenu li #content {width: 50%;float: left;position: absolute;top: 5px;right: -120px;}
+    .main-header .rightMenu li .square {width: 350px;height: 47px;margin-top: 5px;}
+    .main-header .rightMenu, .top-header{display: none;}
+    .main-header{padding: 20px;}
+    .bannerSection .box .banner-content p{display: none;}
+    .bannerSection .box .banner-content h1{text-transform: uppercase;}
+    .bannerSection .box .banner-content h1 br{display: block;}
+    .bannerSection .box .banner-content{width: 80%;}
+    .bannerSection .box .banner-content .bannerButton{margin-top: 30px;}
+    .bannerSection .box .banner-content{left: 20px;}
+    .bannerSection .box .banner-content h1{margin-bottom: 0;}
+    .companyReviewSection li .leftSection{width: 100%;}
+    .companyReviewSection li .rightSection{width: 100%;text-align: center;}
+    .companyReviewSection li .rightSection span{text-align: center;}
+    .companyReviewSection li .rightSection{padding-left: 0}
+    .companyReviewSection li .rightSection span{margin-top: 15px;}
+    .productRangeSection .productDescription{padding: 0 5px;}
+    .productRangeSection .productDescription p{left: 40px;}
+    .productRangeSection .productDescription .arrow{right: 40px}
+    .aboutSharpSection .aboutProduct{display: none;}
+    .aboutSharpSection .banner-content{width: 100%;}
+    .aboutSharpSection .banner-content{top: 25%;}
+    .aboutSharpSection .banner-content p{font-size: 17px;line-height: 28px;}
+    .aboutSharpSection .banner-content .bannerButton{width: 85%;text-align: center;}
+    .CertificateSection .leftSection{width: 100%;position: relative;}
+    .CertificateSection .leftSection p{display: none;}
+    .CertificateSection .leftSection .bannerButton {width: 30%;float: left;margin-left: 0;position: absolute;right: -50px;bottom: 40px;}
+    .CertificateSection .leftSection .mainHeading{width: 70%;float: left;}
+    .CertificateSection .rightSection{width: 100%;margin-top: 0px;}
+    .CertificateSection .rightSection img{width: 100%;}
+    .satisfyConsumerSection .consumerArticle .slick-prev{left: 66%;}
+    .satisfyConsumerSection .consumerArticle .slick-next{right: 25%;}
+    .footerSection{padding: 40px;}
+    .footerSection .footerOpation{width: 50%;margin-bottom: 30px;height:250px;}
+    .footerSection .footerOpation.autoHeight{height: auto;}
+    .footerSection .footerOpation:last-child{width: 100%;height: auto;}
+    .footerSection .footerOpation:last-child ul li{width: 50%;float: left;}
+    .footerSection .footerOpation:last-child ul li:first-child{width: 100%;float: left;}
+    .socialSection/*{display: none;}
+    .enquerySection{display: none;}*/
+    .footerSocialStrip{padding: 30px;}
+    .footerSocialStrip .rightSection{text-align: center;}
+    .bannerSection .box .banner-content br{display: none;}
+    .productRangeSection h1{margin-bottom: 40px;}
+    .videoSection{margin-top: 65px;}
+    .productRangeSection{width:90%;margin: 40px 5% 0}
+    .videoSection{width: 90%;margin: 65px 5% 0}
+    .videoSection .rightSection{padding: 30px;}
+    .satisfyConsumerSection{width: 90%;padding: 0px 5%;}
+    .CertificateSection .leftSection h1{width:100%;font-size: 34px;font-family: 'GOTHIC';margin-bottom: 25px;}
+    .CertificateSection .leftSection h1:after{left: 230px;}
+    .CertificateSection .leftSection .mainHeading span{font-family: 'GOTHICB';margin-top: 10px;}
+    .footerSection .footerOpation li{padding-bottom: 5px;}
+    .footerSection .footerOpation li.bold a{display: inline-block;margin-top: 10px;}
+    .footerSocialStrip .leftSection li:first-child{width: 100%;text-align: center;border-right: 0;padding-bottom: 10px;}
+    .footerSocialStrip .leftSection li{display: inline-block;float: none;}
+    .footerSocialStrip .leftSection {text-align: center;}
+    .satisfyConsumerSection .consumerArticle .slick-next{right: 15%;}
+    .satisfyConsumerSection .consumerArticle .slick-prev{left: 73%;}
+    .bannerSection .box .banner-content .bannerButton a img, .CertificateSection .leftSection .bannerButton a img, .aboutSharpSection .banner-content .bannerButton a img{display: none;}
+    .videoSection .leftSection .videoIcon{width:40px;height:40px;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+    .videoSection .leftSection .pulse, .videoSection .leftSection .videoIcon img{width: 40px;height: 40px;}
+    .videoSection .leftSection .pulse {bottom: inherit;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+    .footerSocialStrip {padding: 30px 110px 120px;}
+    .companyReviewSection li .rightSection{height: 60px;}
+    /*home page css*/
+
+    /*air purifier*/
+    .innerBanner{height: auto;}
+    .bannerProductDetails .leftSection img{width: 70%;}
+    .innerProductRange .productDescription{padding: 0 5px;}
+    .innerProductRange .productDescription p{left: 40px;}
+    .innerProductRange .productDescription .arrow{right: 40px}
+    .innerProductRange{width:90%;margin: 40px 5% 0}
+    .brandLogo {width: 90%;top: -20px;}
+    .techonologySection .technology-product-detail ul{left: 5%}
+    .techonologySection .technology-product-detail .button {bottom: 118px;right: 25px;}
+    .productSlider .box-slide .slide-product img{width: 50%;}
+    .productSlider .box-slide .slide-product{right: -40px;}
+    .productSlider .box-slide .slide-despriction{left: 5%;}
+    .innerProductRange{margin-top: 60px;}
+    .innerProductRange > p{width: 80%;}
+    .innerProductRange .button{padding-top: 10px;}
+    .brandLogo li{width: 33.33%;padding: 0;background: none;}
+    .brandLogo li img{width: 100%;}
+    .brandLogo li:last-child img{width: 100%;}
+    .bannerProductDetails .leftSection{padding-right: 50px;}
+    .icon-arrow{display: none;}
+    .button-plain {padding: 10px 20px;}
+    /*air purifier*/
+
+
+    /*air purifier mosquito*/
+    .breadcrumb{display: none;}
+    .air-mosquito-product li .mosquito-product-info{top: 20px;left: 20px;}
+    .air-mosquito-product li .mosquito-product-info h3{font-size: 14px;}
+    .air-mosquito-product li .mosquito-product-info a{font-size: 12px;}
+    .moquito-product-feature .box{width: 33%;padding: 10px;}
+    .moquito-product-feature .box > img{width: 35%;}
+    .moquito-product-feature .box li:first-child{font-size: 14px;}
+    .moquito-product-feature .box li{font-size: 11px;}
+    .effectiveSection li img {width: 40%;height: 80px;}
+    .effectiveSection li p{font-size: 14px;}
+    .LabSection .slick-next{display: none !important;}
+    .LabSection .slick-prev{display: none !important;}
+    .specificationSection table th{padding: 20px 0;}
+    .specificationSection table td{padding: 15px 10px;font-size: 12px;}
+    .specificationSection .buyNowButton a{padding: 10px 35px;font-size: 15px;}
+    .air-mosquito-product li{width: 100%;}
+    .rightMenu .closeButton{display: block;}
+    /*air purifier mosquito*/
+
+
+    /*air purifier dehu*/
+    .dehuProductDespription .rightSection{padding: 13px;}
+    /*air purifier dehu*/
+
+/*Case Studies*/
+.caseStudiSection{ margin-top: 0; float: left;}
+.accordionContent{float: left;    margin: 0px 0 40px;}
+.accLeftSection, .accRightSection{ width: 100%; float: left; }
+.accLeftSection{padding: 20px 20px;}
+.accLeftSection h3{font-size: 24px;}
+.accLeftSection h3:before{ width: 5px;left: -15px;height: 100%; top: 0;}
+
+.companydetailBanner .cd-despriction{width: 100%;top: 3%; display:inherit; padding: 0 5%; left: 0;}
+.companydetailBanner .cd-despriction h2{font-size: 26px;}
+.companydetailBanner .cd-despriction p{    font-size: 15px;    line-height: normal;}
+
+.companyaboutSharp .aboutsharp_despriction{ width: 70%; }
+.companyaboutSharp .aboutsharp_despriction h2{font-size:18px; padding-bottom: 5px}
+.companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;}
+
+
+
+}
+
+
+@media screen and (max-width: 568px){
+    /*home page css*/
+    .bannerSection .box .banner-content .bannerButton{margin-top: 20px;}
+    .bannerSection .box .banner-content h1, .bannerSection .box .banner-content h1 span{font-size: 30px}
+    .bannerSection .box .banner-content .bannerButton a{padding: 9px 10px;font-size: 12px;}
+    .bannerSection .box .banner-content .bannerButton a img{width: 18px;}
+    .companyReviewSection{padding: 0}
+    .companyReviewSection li{padding: 15px;}
+    .companyReviewSection li .leftSection img{width: 50%}
+    .companyReviewSection li .rightSection {font-size: 12px;line-height: 15px;}
+    .productRangeSection .productDescription .productItem{width: 60%}
+   .productRangeSection .productDescription .arrow{width: 30px;bottom: 20px;right: 20px;}
+   .productRangeSection .productDescription p{left: 20px;}
+    .productRangeSection h1{font-size: 18px;margin-bottom: 20px;}
+    .productRangeSection h1:after{width: 50px;border-top: 3px solid #000;top:60%;}
+    .videoSection .rightSection h3:after{width: 50px;}
+    .videoSection .rightSection h1{font-size: 20px;}
+    .videoSection .rightSection h1 span{font-size: 25px;}
+    .videoSection .rightSection h1 span br{display: none;}
+    .consumerArticle .slider-progress{left: 33%;bottom: -50px;}
+    .videoSection .rightSection p{font-size: 12px;line-height: 18px;padding-top: 5px;}
+    .videoSection .rightSection{padding: 20px;}
+    .videoSection .rightSection h3{font-size: 18px;}
+    .satisfyConsumerSection .sectionHeading h1{font-size: 18px;margin-bottom: 40px}
+    .satisfyConsumerSection .sectionHeading h1:after{width: 50px;right: -60px;border-top: 3px solid #000;}
+    .satisfyConsumerSection .sectionHeading a{font-size: 14px;left: 70px;}
+    .CertificateSection{padding: 0 20px;margin-top: 20px;}
+    .CertificateSection .leftSection{padding: 20px 0;}
+    .CertificateSection .leftSection h1{font-size: 18px;}
+    .CertificateSection .leftSection h1:after{width: 50px;left: 110px;border-top: 3px solid #000}
+    .CertificateSection .leftSection .mainHeading{font-size: 20px;line-height: 24px;}
+    .CertificateSection .leftSection .mainHeading span{margin-top: 0}
+    .CertificateSection .leftSection .bannerButton{right: 0;bottom: 20px;}
+    .CertificateSection .leftSection .bannerButton a{padding: 10px;font-size: 12px;}
+    .CertificateSection .leftSection .bannerButton a img{width: 18px;margin-top: 1px;margin-left: 10px;}
+    .CertificateSection .leftSection .mainHeading{padding-left: 10px;}
+    .aboutSharpSection .banner-content p{font-size: 12px;line-height: 17px;}
+    .aboutSharpSection .banner-content{transform: inherit;top: 30px;left: 30px;}
+    .aboutSharpSection .banner-content h1{font-size: 18px;}
+    .aboutSharpSection .banner-content h1:after{width: 50px;right: -60px;border:3px solid #000;}
+    .aboutSharpSection .banner-content .bannerButton a{font-size: 12px;padding:10px;}
+    .aboutSharpSection .banner-content .bannerButton a img{width: 18px;margin-top:1px;}
+    .footerSection{padding: 20px;padding-top: 3 0px;}
+    .footerSection .footerOpation li:first-child a{font-size: 16px;padding-bottom: 10px;display: block;}
+    .footerSection .footerOpation li{padding-bottom: 1px;}
+    .footerSection .footerOpation{height: 140px;}
+    .footerSection .footerOpation:last-child ul li{width: 100%;}
+    .footerSocialStrip .rightSection li a{font-size: 12px;}
+    .footerSocialStrip .rightSection li:first-child a{padding-right: 0}
+    .footerSocialStrip .leftSection li{padding: 0 5px;}
+    .footerSocialStrip .leftSection{margin-top: 20px;}
+    .footerSocialStrip .leftSection li:first-child{padding-bottom: 7px;}
+    .footerSocialStrip .rightSection li{padding-left: 3px;}
+
+
+    .videoSection .Videoslider .consumerDespreption .leftSection .videoIcon{bottom: 14px;right: 14px;}
+    .videoSection .Videoslider .consumerDespreption .leftSection .videoIcon img{width: 40px;}
+    .videoSection .Videoslider .consumerDespreption .leftSection .pulse{width:40px;height: 40px;}
+    .bannerSection .box .banner-content .bannerButton a img{width: 18px;margin-top: 2px;margin-left: 10px;}
+    .productRangeSection {margin: 20px 5% 0;}
+    .videoSection{margin-top: 20px;}
+    .satisfyConsumerSection{width: 90%;margin-top: 80px;}
+    .satisfyConsumerSection .consumerArticle .slick-slide{margin: 0 10px;}
+    .socialSection{display: none;}
+    .enquerySection{top: 30%;}
+
+    .videoSection .Videoslider .consumerDespreption .leftSection{width: 100%;}
+    .videoSection .Videoslider .consumerDespreption .rightSection{width: 99.8%;margin: 0;padding: 20px;}
+    .videoSection .Videoslider .consumerDespreption .rightSection p{width: 100%;font-size: 14px;line-height: 22px;}
+    .videoSection .Videoslider .consumerDespreption .rightSection h1{font-size: 24px;}
+    .videoSection .Videoslider .consumerDespreption .rightSection h1 span{font-size: 24px;}
+    .bannerSection .slick-active.box .banner-content h1{line-height: 35px;}
+    .bannerSection .box .banner-content h1, .bannerSection .box .banner-content h1 span{font-size: 30px;line-height: 36px;}
+    .aboutSharpSection .banner-content .bannerButton{margin-top: 10px;}
+    .aboutSharpSection .banner-content h1{margin-bottom: 6px;}
+    .CertificateSection .rightSection .certificateItem{padding-left: 0}
+    .companyReviewSection li .rightSection span br{display: none;}
+    .consumerArticle.videoProgresss .slider-progress{left: 25%;}
+    /*home page css*/
+
+    /*air purifier*/
+    .innerProductRange .productDescription .productItem{width: 60%}
+    .innerProductRange .productDescription .arrow{width: 30px;bottom: 20px;right: 20px;}
+    .innerProductRange .productDescription p{left: 20px;}
+    .innerProductRange h1{font-size: 18px;margin-bottom: 20px;}
+    .innerProductRange h1:after{width: 50px;border-top: 3px solid #000;top:60%;}
+    .innerProductRange {margin: 20px 5% 0;}
+    .bannerProductDetails .leftSection img{width: 50%;}
+    .bannerProductDetails .rightSection p{font-size: 14px;}
+    .bannerProductDetails .rightSection p br{display: none;}
+    .brandLogo {width: 95%;top: -20px;padding: 10px;}
+    .brandLogo li {width: 20%;padding: 10px;background: none;}   
+    .brandLogo li:last-child{width: 60%}
+    .brandLogo li:first-child{padding-left: 10px;}
+    .innerProductRange > p{width: 100%;}
+    .innerProductRange h1{margin-bottom: 0px;}
+    .productSlider .box-slide .slide-despriction p, .innerProductRange > p {font-size: 12px;line-height: 18px;}
+    .techonologySection p{font-size: 12px;line-height: 18px;width: 90%;}
+    .whySharpSection p.hide{display: none;}
+    .whySharpSection{padding: 20px;}
+    .whySharpSection p{font-size: 12px;line-height: 18px;}
+    .techonologySection .technology-product-detail li{font-size: 12px;}
+    .techonologySection .technology-product-detail .button {bottom: 188px;right: inherit;left: 18px;}
+    .productSlider .box-slide .slide-despriction .button{display: none;}
+    .productSlider .box-slide .slide-product {bottom: 0px;right: -160px;}
+    .productSlider .box-slide .slide-product img {width: 35%;}
+    .productSlider .box-slide .slide-despriction p{width:50%;}
+    .footerSocialStrip{padding:0;padding-bottom: 90px;}
+    .main-header .logo{padding: 0;}
+    .main-header{padding: 20px;}
+    .main-header .logo{width: 30%;}
+    .main-header .logo img{width: 100%;}
+
+
+    .main-header .rightMenu{width:100%;height:100%;background:#fff;display: block;position: fixed;top: 100%;left: 0;z-index: 9999;overflow: auto;padding-bottom: 90px;padding-top: 50px;}
+    .main-header .rightMenu li{width:100%;float:left;padding: 0;}
+    .main-header .rightMenu li:last-child{display: none;}
+    .main-header .rightMenu li ul.dropdown{display: none;width: 100%;position: relative;z-index: 2;background: #ed3237;top: 0;left: 0;opacity: 0;visibility: hidden;}
+    .main-header .rightMenu li:hover ul.dropdown{display: block;}
+    .main-header .rightMenu li ul.dropdown li{background: #ed3237;padding: 0 20px;}
+    .main-header .rightMenu li a {font-size: 14px;width: 100%;float: left;text-align: left;padding: 15px;}
+    .main-header .rightMenu li a span{position: absolute;right: 10px;top:18px;}
+    .main-header .rightMenu li a:hover span{top:21px;}
+    .main-header .rightMenu .closeButton {position: absolute;right: 0;top: 0;padding: 10px;background: #ed3237;}
+    /*air purifier*/
+
+    /*air purifier mosquito*/
+    .air-mosquito-product li .mosquito-product-info h3{font-size: 16px;}
+    .air-mosquito-product li .mosquito-product-info a{font-size: 14px;}
+    .moquito-product-feature .box{width: 100%;margin-top: 20px;}
+    .moquito-product-feature .box li:first-child{font-size: 16px;}
+    .moquito-product-feature .box li{font-size: 14px;}
+    .effectiveSection li{width: 50%;margin-bottom: 20px;}
+    .LabSection iframe{width: 100%;height: auto;}
+    .specificationSection table th{font-size:14px;float: left;}
+    .specificationSection table td{float: left;}
+    .LabSection .slider-progress{left: 30%;}
+
+    .specificationSection .table-wrap{width: 100%;float: left;overflow-x: scroll}
+    .specificationSection table{width: 600px;float: left;background: #f4f4f4;}
+    /*air purifier mosquito*/
+
+
+
+    /*air purifier dehu*/
+    .dehuProductDespription .leftSection{width: 100%;margin: 0;}
+    .dehuProductDespription .leftSection iframe{height: 200px;}
+    .dehuProductDespription .rightSection{width: 100%;height:auto;margin: 0;}
+    /*air purifier dehu*/
+
+/*Case Studies*/
+ .accLeftSection input{ width: 100%; border-right: 1px solid #ed3237; margin-bottom: 10px;}
+ .accLeftSection p{ margin:5px 0; }   
+}
+
+@media screen and (max-width: 320px){
+    /*home page css*/
+    .companyReviewSection li .rightSection{font-size: 10px;}
+    .productRangeSection .productDescription .arrow{display: none;}
+    .satisfyConsumerSection .sectionHeading h1{font-size: 14px;}
+    .CertificateSection .leftSection .bannerButton a img{display: none;}        
+    .footerSection .footerOpation{height: 260px;}
+    .footerSection .footerOpation li:first-child a{font-size: 13px;}
+    .footerSocialStrip .rightSection li a{font-size: 11px;}
+    .footerSocialStrip .rightSection li{padding-left: 2px;}
+    /*home page css*/
+
+
+    /*air purifier*/
+    .innerProductRange .productDescription .arrow{display: none;}
+    /*air purifier*/
+}     
+
