@@ -85,6 +85,8 @@
     .brandLogo{width: 53%;}
     .techonologySection .technology-product-detail .button {bottom: 207px;right: 70px;}
     /*air-purifier*/
+    .footerSection {    padding: 80px 80px; font-size:0;}
+    .footerSection .footerOpation{ float: none; width: 33%; display: inline-block; vertical-align: top;}
 }
 
 
@@ -211,8 +213,8 @@
     .CertificateSection .rightSection img{width: 100%;}
     .satisfyConsumerSection .consumerArticle .slick-prev{left: 66%;}
     .satisfyConsumerSection .consumerArticle .slick-next{right: 25%;}
-    .footerSection{padding: 40px;}
-    .footerSection .footerOpation{width: 50%;margin-bottom: 30px;height:250px;}
+    .footerSection{padding: 40px 70px; font-size: 0;}
+    .footerSection .footerOpation{width: 50%;margin-bottom: 30px; float: none; display: inline-block; vertical-align: top;}
     .footerSection .footerOpation.autoHeight{height: auto;}
     .footerSection .footerOpation:last-child{width: 100%;height: auto;}
     .footerSection .footerOpation:last-child ul li{width: 50%;float: left;}
@@ -371,7 +373,6 @@
     .footerSection{padding: 20px;padding-top: 3 0px;}
     .footerSection .footerOpation li:first-child a{font-size: 16px;padding-bottom: 10px;display: block;}
     .footerSection .footerOpation li{padding-bottom: 1px;}
-    .footerSection .footerOpation{height: 140px;}
     .footerSection .footerOpation:last-child ul li{width: 100%;}
     .footerSocialStrip .rightSection li a{font-size: 12px;}
     .footerSocialStrip .rightSection li:first-child a{padding-right: 0}
