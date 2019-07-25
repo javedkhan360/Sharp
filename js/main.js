@@ -27,7 +27,7 @@ $(this).next().slideDown();
     $(this).addClass('active');
     $(this).next().slideDown();
       })
-    }
+    } 
 
 $(document).ready(function(){
   var $firststatus = $('.firstcount');
