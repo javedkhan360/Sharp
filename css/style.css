@@ -1,47 +1,56 @@
 @font-face {
-font-family: 'CENTURY';
-src: url('../fonts/CENTURY.eot');
-src: url('../fonts/CENTURY.eot') format('embedded-opentype'),
-url('../fonts/CENTURY.woff2') format('woff2'),
-url('../fonts/CENTURY.woff') format('woff'),
-url('../fonts/CENTURY.ttf') format('truetype'),
-url('../fonts/CENTURY.svg#CENTURY') format('svg');
+    font-family: 'CENTURY';
+    src: url('../fonts/CENTURY.eot');
+    src: url('../fonts/CENTURY.eot') format('embedded-opentype'),
+         url('../fonts/CENTURY.woff2') format('woff2'),
+         url('../fonts/CENTURY.woff') format('woff'),
+         url('../fonts/CENTURY.ttf') format('truetype'),
+         url('../fonts/CENTURY.svg#CENTURY') format('svg');
 }
+
 @font-face {
-font-family: 'GOTHIC';
-src: url('../fonts/GOTHIC.eot');
-src: url('../fonts/GOTHIC.eot') format('embedded-opentype'),
-url('../fonts/GOTHIC.woff2') format('woff2'),
-url('../fonts/GOTHIC.woff') format('woff'),
-url('../fonts/GOTHIC.ttf') format('truetype'),
-url('../fonts/GOTHIC.svg#GOTHIC') format('svg');
+    font-family: 'GOTHIC';
+    src: url('../fonts/GOTHIC.eot');
+    src: url('../fonts/GOTHIC.eot') format('embedded-opentype'),
+         url('../fonts/GOTHIC.woff2') format('woff2'),
+         url('../fonts/GOTHIC.woff') format('woff'),
+         url('../fonts/GOTHIC.ttf') format('truetype'),
+         url('../fonts/GOTHIC.svg#GOTHIC') format('svg');
 }
+
 @font-face {
-font-family: 'GOTHICI';
-src: url('../fonts/GOTHICI.eot');
-src: url('../fonts/GOTHICI.eot') format('embedded-opentype'),
-url('../fonts/GOTHICI.woff2') format('woff2'),
-url('../fonts/GOTHICI.woff') format('woff'),
-url('../fonts/GOTHICI.ttf') format('truetype'),
-url('../fonts/GOTHICI.svg#GOTHICI') format('svg');
+    font-family: 'GOTHICI';
+    src: url('../fonts/GOTHICI.eot');
+    src: url('../fonts/GOTHICI.eot') format('embedded-opentype'),
+         url('../fonts/GOTHICI.woff2') format('woff2'),
+         url('../fonts/GOTHICI.woff') format('woff'),
+         url('../fonts/GOTHICI.ttf') format('truetype'),
+         url('../fonts/GOTHICI.svg#GOTHICI') format('svg');
 }
+
 @font-face {
-font-family: 'GOTHICB';
-src: url('../fonts/GOTHICB.eot');
-src: url('../fonts/GOTHICB.eot') format('embedded-opentype'),
-url('../fonts/GOTHICB.woff2') format('woff2'),
-url('../fonts/GOTHICB.woff') format('woff'),
-url('../fonts/GOTHICB.ttf') format('truetype'),
-url('../fonts/GOTHICB.svg#GOTHICB') format('svg');
+    font-family: 'GOTHICB';
+    src: url('../fonts/GOTHICB.eot');
+    src: url('../fonts/GOTHICB.eot') format('embedded-opentype'),
+         url('../fonts/GOTHICB.woff2') format('woff2'),
+         url('../fonts/GOTHICB.woff') format('woff'),
+         url('../fonts/GOTHICB.ttf') format('truetype'),
+         url('../fonts/GOTHICB.svg#GOTHICB') format('svg');
 }
+
+
+
+
 /*
 * What follows is the result of much research on cross-browser styling.
 * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
 * Kroc Camen, and the H5BP dev community and team.
 */
+
 /* ==========================================================================
 Base styles: opinionated defaults
 ========================================================================== */
+
 html, button, input, select, textarea {color: #222;}
 img{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o-user-select: none;user-select: none;}
 /*
@@ -54,11 +63,13 @@ img{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o
 /*
 * A better looking default horizontal rule
 */
+
 hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
 /*
 * Remove the gap between images, videos, audio and canvas and the bottom of
 * their containers: h5bp.com/i/440
 */
+
 audio, canvas, img, video {vertical-align: middle;}
 /*
 * Remove default fieldset styles.
@@ -72,36 +83,50 @@ textarea {resize: vertical;}
 Browse Happy prompt
 ========================================================================== */
 ul,ol,p{margin:0;padding:0;}
-h1,h2,h3,h4,h5{margin:0;padding:0;font-family: 'GOTHIC';}
+h1,h2,h3,h4,h5{margin:0;padding:0;font-family: 'GOTHIC';}    
 ul, li{ list-style:none;}
-a{ text-decoration:none; transition: all 0.60s ease-in-out;}
+a{ text-decoration:none; transition: all 0.60s ease-in-out;}    
+
+
+
 body{ margin:0; padding:0;background:#fff;color: #353636; overflow-x:hidden;font-family: 'GOTHIC';opacity: 0;transition: 0.6s}
 body * {box-sizing: border-box;}
+
+
 .mainContainer{width: 100%;float: left;overflow: hidden;}
-.container{width: 90%;margin: 0 auto; position: relative;}
-.top-header{width: 100%;float: left;background: #474747;text-align: right;padding: 10px 50px;}
+.container{width: 90%;margin: 0 auto}
+
+
+
+
+.top-header{width: 100%;float: left;background: #474747;text-align: right;padding: 10px 0px;}
 .top-header li{display: inline-block;color: #cbccce;padding:0 27px;text-transform: uppercase;border-left: 1px solid #cbccce}
 .top-header li:first-child{border:0;}
 .top-header li:last-child{padding-right: 0;}
 .top-header li img{padding-right: 10px;}
 .top-header li a{color: #cbccce;font-size: 12px;}
 .top-header li a:hover{color: #fff;}
-.main-header{width: 100%;float: left;padding: 0px 50px;}
+
+.main-header{width: 100%;float: left;padding: 0px 0px;}
 .main-header .logo{width: 30%;float: left;padding: 20px 0;}
 .main-header .rightMenu{width: 70%;float: left;text-align: right;}
 .main-header .rightMenu li{display: inline-block;padding:20px 0;padding-right: 50px;position: relative;transition: 0.6s}
-.main-header .rightMenu li:hover ul.dropdown{opacity: 1;transition: 0.6s;visibility: visible;}
+
 .main-header .rightMenu li ul.dropdown{width: 220px;position: absolute;z-index: 2;background: #ed3237;top: 65px;left: -40px;opacity: 0;visibility: hidden;}
 .main-header .rightMenu li ul.dropdown li{display: block;float: left;width: 100%;padding: 0;text-align: center;padding: 15px 10px;border-bottom: 1px solid #f77073;cursor: pointer;transition: 0.6s}
 .main-header .rightMenu li ul.dropdown li:hover{background: #d01d21;transition: 0.6s}
 .main-header .rightMenu li ul.dropdown li a{color: #fff;font-size: 20px}
 .main-header .rightMenu li ul.dropdown li a{}
+
 .main-header .rightMenu li:last-child{padding-right: 0px;}
 .main-header .rightMenu li a{font-size: 20px;color: #000}
 .main-header .rightMenu li a span{width:15px;height:10px;background: url(../images/navigation-arrow.png)top right no-repeat;display: inline-block;transition: 0.6s}
 .main-header .rightMenu li a:hover span{background: url(../images/navigation-red-arrow.png)top right no-repeat;transition: 0.6s}
 .main-header .rightMenu li a:hover{color: #ed3237}
 .rightMenu .closeButton{display: none;}
+
+
+
 .main-header .rightMenu li #content {position: absolute;top: 28px;}
 .main-header .rightMenu li #content.on {-webkit-animation-name: in-out;animation-name: in-out;-webkit-animation-duration: 0.7s;animation-duration: 0.7s;
 -webkit-animation-timing-function: linear;animation-timing-function: linear;-webkit-animation-iteration-count: 1;animation-iteration-count: 1;}
@@ -123,10 +148,12 @@ cursor: pointer;-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);
 background: #fff;color: #000;font-family: Roboto;font-size: 16px;font-weight: 400;outline: 0;-webkit-transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
 padding 0.2s;transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,padding 0.2s;-webkit-transition-delay: 0.4s, 0s, 0.4s;transition-delay: 0.4s, 0s, 0.4s;
 -webkit-transform: translate(-100%, -50%);-ms-transform: translate(-100%, -50%);transform: translate(-100%, -50%);}
+
+
 /*home page css*/
 .bannerSection{width: 100%;float: left;position: relative;}
 .bannerSection .box img{width: 100%;}
-.bannerSection .box .banner-content{width: 50%;float: left;position: absolute;top: 100px;left: 120px;}
+.bannerSection .box .banner-content{width: 50%;float: left;position: absolute;top: 100px;left: 95px;}
 .bannerSection .box .banner-content h1{margin-bottom:40px;font-size: 72px;font-weight: normal;color: #01599a;font-family: 'GOTHIC';position: relative;left: -50px;opacity: 0;line-height: 80px;}
 .bannerSection .box .banner-content h1 span{
 margin-bottom:40px;
@@ -137,15 +164,18 @@ background-image:-o-linear-gradient(to right, #01599a, #1eb6f7);
 background-image:-moz-linear-gradient(to right, #01599a, #1eb6f7);
 background-image:linear-gradient(to right, #01599a, #1eb6f7);
 -webkit-text-fill-color: transparent;
-color: #01599a;
+color: #01599a; 
 background-clip:text;
--webkit-background-clip:text;
+-webkit-background-clip:text; 
 -ms-background-clip:text;
 -o-background-clip:text;
 -moz-background-clip:text;
 position:relative;
 font-weight: normal;
 }
+
+
+.bannerSection.air-purifier-mosquito{height: 600px;overflow: hidden;}
 .bannerSection .box .banner-content h1 br{display: none;}
 .bannerSection .box .banner-content p{width:auto;display:inline-block;font-size: 23px;color: #f2f0ee;background:#035fa0;margin-bottom: 10px;padding: 3px;opacity: 0;position: relative;left: -50px;}
 .bannerSection .box .banner-content .bannerButton{width: 100%;float: left;margin-top: 80px;opacity: 0;}
@@ -153,17 +183,19 @@ font-weight: normal;
 .bannerSection .box .banner-content .bannerButton a:hover{background:#ed3237;transition: 0.6s}
 .bannerSection .box .banner-content .bannerButton a img{width: auto;float: right;margin-top: 3px;margin-left: 13px;}
 .bannerSection .slick-dots{bottom: 120px;}
-.bannerSection.air-purifier-mosquito .slick-dots{bottom: 30px}
+.bannerSection.air-purifier-mosquito .slick-dots{bottom: 210px}
 .bannerSection .slick-dots li button{background:#8e8e8e85;width:12px;height: 12px;}
 .bannerSection .slick-dots li.slick-active button{background:#000;}
 .bannerSection .slick-active.box .banner-content h1{left:0px;opacity: 1;transition: 0.6s;transition-delay:0.5s;}
 .bannerSection .slick-active.box .banner-content p{left:0px;opacity: 1;transition: 0.6s;transition-delay:0.8s;}
 .bannerSection .slick-active.box .banner-content .bannerButton{opacity: 1;transition: 0.6s;transition-delay:1.1s;}
+
 .companyReviewSection{width: 100%;float: left;/*padding: 0 44px;*/position: relative;z-index: 9;margin-top: -90px;}
 .companyReviewSection li{width: 33.33%;float: left;background:#ed3237;padding: 40px 75px;border-right: 1px solid #f77073}
 .companyReviewSection li .leftSection{width: 50%;float: left;text-align: center;}
 .companyReviewSection li .rightSection{width: 50%;height:80px;float: left;font-size: 22px;color: #fff;text-align: left;}
 .companyReviewSection li .rightSection span{text-align: left;display: inline-block;}
+
 .productRangeSection{width: 100%;float: left;margin-top: 80px;}
 .productRangeSection h1{text-align: center;font-size: 42px;position: relative;color: #000;font-weight: normal;margin-bottom: 57px;}
 .productRangeSection h1:after{content:' ';width:100px;border-top: 4px solid #000;position: absolute;top: 50%;transform: translateY(-50%);margin-left: 15px;}
@@ -177,15 +209,16 @@ font-weight: normal;
 .productRangeSection .productDescription:hover .arrow{right: 20px;}
 .productRangeSection .productDescription img.productImg{transition: 5.6s;}
 .productRangeSection .productDescription:hover img.productImg{transform: scale(3.2);transition: 10.6s;}
+
 .videoSection{width: 100%;float: left;margin-top: 85px;}
-.videoSection .leftSection{width: 60%;float: left;position: relative;z-index: 1}
+.videoSection .leftSection{width: 59%;float: left;position: relative;z-index: 1}
 .videoSection .leftSection img{width: 100%;}
 .videoSection .leftSection .videoIcon{position: absolute;bottom:50px;right: 50px;cursor: pointer;}
 .videoSection .leftSection .videoIcon img{width: auto;position: relative;z-index: 2;}
 .videoSection .leftSection .pulse {height: 68px;width: 68px;border-radius: 50%;background-color: #ff0000;animation: pulse 1.5s infinite;position: absolute;bottom: -1px;right: 0;z-index: 1;}
 @keyframes pulse {
-0% {box-shadow: 0 0 rgba(255, 0, 0, 0.5);}
-100% {box-shadow: 0 0 0 15px rgba(255, 0, 0, 0);}
+  0% {box-shadow: 0 0 rgba(255, 0, 0, 0.5);}
+  100% {box-shadow: 0 0 0 15px rgba(255, 0, 0, 0);}
 }
 .videoSection .rightSection{width: 45.4%;float: left;padding: 120px 30px 108px 160px;border: 1px solid #d3d3d3;margin-left: -90px;margin-top: 4%;overflow: hidden;}
 .videoSection .rightSection h3{font-size: 42px;position: relative;font-weight: normal;}
@@ -193,6 +226,7 @@ font-weight: normal;
 .videoSection .rightSection h1{font-size: 20px;color: #01599a;font-family: 'GOTHIC';font-weight: normal;margin-top: 20px;}
 .videoSection .rightSection h1 span{font-size: 45px;text-transform: uppercase;display: block;font-family: 'GOTHICB';}
 .videoSection .rightSection p{width:90%;font-size: 18px;color: #353636;/*font-weight: bold;*/padding-top: 20px;line-height: 30px;}
+
 .satisfyConsumerSection{width: 100%;float: left;margin: 80px 0;}
 .satisfyConsumerSection .sectionHeading{width: 100%;float: left;text-align: center;}
 .satisfyConsumerSection .sectionHeading h1{width:auto;display:inline-block;font-size: 42px;position: relative;color: #000;font-weight: normal;margin-bottom: 57px;}
@@ -207,6 +241,7 @@ font-weight: normal;
 .satisfyConsumerSection .consumerArticle .consumerDespreption span{font-size: 14px;color: #01599a;margin-top: 10px;display:block;text-align: left;}
 .satisfyConsumerSection .consumerArticle .slick-next{width: 26px;height: 20px;background: url(../images/rightIcon.png)top left no-repeat;right: 45%;margin-top: 250px;}
 .satisfyConsumerSection .consumerArticle .slick-prev{width: 26px;height: 20px;background: url(../images/leftIcon.png)top left no-repeat;left: 51%;margin-top: 250px;}
+
 .aboutSharpSection{width: 100%;float: left;padding: 8px 0;position: relative;}
 .aboutSharpSection img{width: 100%;}
 .aboutSharpSection .aboutProduct{width:auto;position: absolute;right: 39%;bottom: 0px;}
@@ -218,6 +253,7 @@ font-weight: normal;
 .aboutSharpSection .banner-content .bannerButton a{display: inline-block;background:#ed3237;color: #fff;padding: 14px 20px;transition: 0.6s;}
 .aboutSharpSection .banner-content .bannerButton a:hover{background:#000;transition: 0.6s;}
 .aboutSharpSection .banner-content .bannerButton a img{width: auto;float: right;margin-top: 3px;margin-left: 13px;}
+
 .CertificateSection{width: 100%;float: left;background: url(../images/certificate-bg.png)top left no-repeat;background-size: cover;padding:0 40px;margin-top: 90px;}
 .CertificateSection .leftSection{width: 50%;float: left;padding: 40px 85px;}
 .CertificateSection .leftSection h1{width:auto;display:inline-block;font-size: 42px;position: relative;color: #000;font-weight: normal;margin-bottom: 57px;}
@@ -233,6 +269,7 @@ font-weight: normal;
 .CertificateSection .rightSection .slick-next{width: 26px;height: 20px;background: url(../images/rightIcon.png)top left no-repeat;right: 37%;}
 .CertificateSection .rightSection .slick-prev{width: 26px;height: 20px;background: url(../images/leftIcon.png)top left no-repeat;z-index: 999}
 .CertificateSection .rightSection .certificateItem{padding-left: 50px}
+
 .footerSection{width: 100%;float: left;background: #424242;padding: 80px 110px;}
 .footerSection .footerOpation{width: 20%;float: left;}
 .footerSection .footerOpation ul{width:100%;float:left;padding-left: 65px;}
@@ -251,25 +288,47 @@ font-weight: normal;
 .footerSocialStrip .leftSection li a{color: #a7a7a7;font-size:12px;}
 .footerSocialStrip .leftSection li a:hover{color: #fcaaaa;}
 .footerSocialStrip .rightSection {width: 40%;float: right;text-align: right;}
-.footerSocialStrip .rightSection li{display: inline-block;padding-left: 10px;}
+.footerSocialStrip .rightSection li{display: inline-block;padding-left: 10px;position: relative;}
+.footerSocialStrip .rightSection li .socialhover{opacity: 0;position: absolute;left: 10px;transition: 0.6s}
+.footerSocialStrip .rightSection li:hover .socialhover{opacity: 1;position: absolute;left: 10px;transition: 0.6s}
 .footerSocialStrip .rightSection li a{color: #fff;font-size: 18px;font-weight: bold;}
 .footerSocialStrip .rightSection li:first-child a{padding-right: 20px;}
 /*home page css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Air purifier*/
 .innerBanner{width: 100%;float:left;position: relative;height: 500px;overflow: hidden;}
 .innerBanner img{width: 100%;}
-.bannerProductDetails{width:100%;position: absolute;top: 50%;left: 0;transform: translateY(-50%);display: table;}
-.bannerProductDetails .leftSection{width:50%;text-align: right;display: table-cell;vertical-align: middle;padding-right: 180px;}
+.bannerProductDetails{width:100%;position: absolute;top: 50px;left: 0;display: table;}
+.bannerProductDetails .leftSection{width:50%;text-align: -webkit-right;text-align: -moz-right;display: table-cell;vertical-align: middle;padding-right: 180px;}
 .bannerProductDetails .leftSection img{width:auto;}
 .bannerProductDetails .rightSection{width:50%;display: table-cell;vertical-align: middle;}
 .bannerProductDetails .rightSection h1{font-size: 45px;color: #01599a;font-family: 'GOTHIC';padding-bottom: 5px;}
 .bannerProductDetails .rightSection p{font-size: 27px;color: #000;font-weight: 100}
 .bannerProductDetails .rightSection .button {margin-top: 20px;}
-.brandLogo{width: 36%;margin: 0 auto;background:#fff;padding: 20px 40px;display: table;box-shadow: 0 0 10px #ddd;position: relative;top: -50px;overflow: hidden;}
+
+.brandLogo{width: 36%;margin: 0 auto;background:#fff;padding: 20px 40px;display: table;box-shadow: 0 0 10px #ddd;position: relative;top: -50px;overflow: hidden;z-index: 1;}
 .brandLogo li{float: left;background: url(../images/air-purifier/border.png) top right no-repeat;text-align: center;padding:0 50px;}
 .brandLogo li:first-child{padding-left: 0;}
 .brandLogo li:last-child{background:none;padding-right: 0}
 .brandLogo li:last-child img{width: 250px;}
+
 .techonologySection{width: 100%;float: left;text-align: center;background: transparent; transition-duration: 1s; -webkit-transition-duration: 1s;}
 .techonologySection.active{transition-duration: 1s; -webkit-transition-duration: 1s; }
 .techonologySection h2{font-size: 45px;color: #01599a;font-family: 'GOTHIC';font-weight: 100;padding-bottom: 5px;}
@@ -290,26 +349,33 @@ font-weight: normal;
 .techonologySection .technology-product-detail .animate-product img.imgOne{position: absolute;right: 26px;bottom: 53px;z-index: 3;transform: rotate3d(1, 1, 1, 0deg);}
 .techonologySection .technology-product-detail .animate-product img.imgTwo{position: absolute;bottom: 5px;right: 85px;z-index: 2;opacity: 0.8}
 .techonologySection .technology-product-detail .animate-product img.imgThree{position: absolute;bottom: 81px;right: 78px;opacity: 0.8}*/
-.productSlider{width: 100%;float: left;cursor: url("../images/air-purifier/dragIcon.png"), auto;padding-bottom: 50px;}
+
+
+.productSlider{width: 100%;float: left;/*cursor: url("../images/air-purifier/dragIcon.png"), auto;padding-bottom: 50px;*/}
 .productSlider .box-slide{width: 100%;float: left;position: relative;}
 .productSlider .box-slide img{width: 100%;}
 .productSlider .box-slide .slide-despriction{width:570px;position: absolute;top: 0;left: 15%;}
-.productSlider .box-slide .slide-despriction h2{font-family: 'GOTHIC';font-size: 45px;color:#01599a;padding-bottom: 5px;font-weight: 500;opacity: 0;transition: 0.6s;margin-left: -30px;}
-.productSlider .box-slide .slide-despriction p{font-size: 20px;line-height: 32px;opacity: 0;transition: 0.6s;margin-left: -30px;}
-.productSlider .box-slide .slide-despriction .button{padding-top:15px;opacity: 0;transition: 0.6s;margin-left: -30px;}
+.productSlider .box-slide .slide-despriction h2{font-family: 'GOTHIC';font-size: 45px;color:#01599a;padding-bottom: 5px;font-weight: 500;transition: 0.6s;}
+.productSlider .box-slide .slide-despriction p{font-size: 20px;line-height: 32px;transition: 0.6s;padding:10px 0 20px;}
+.productSlider .box-slide .slide-despriction .button{padding-top:15px;transition: 0.6s;}
 .productSlider .box-slide .slide-despriction .button img{width: auto;}
 .productSlider .box-slide .slide-product{position: absolute;right: 170px;bottom:0;}
 .productSlider .box-slide .slide-product img{width: auto;}
-.productSlider .box-slide.slick-active .slide-despriction h2{opacity:1;transition: 0.6s;transition-delay: 0.3s;margin-left: 0px;}
+/*.productSlider .box-slide.slick-active .slide-despriction h2{opacity:1;transition: 0.6s;transition-delay: 0.3s;margin-left: 0px;}
 .productSlider .box-slide.slick-active .slide-despriction p{opacity:1;transition: 0.6s;transition-delay: 0.6s;margin-left: 0px;}
-.productSlider .box-slide.slick-active .slide-despriction .button{opacity:1;transition: 0.6s;transition-delay: 0.9s;margin-left: 0px;}
+.productSlider .box-slide.slick-active .slide-despriction .button{opacity:1;transition: 0.6s;transition-delay: 0.9s;margin-left: 0px;}*/
+
+
+
+
 .productSlider .slick-dots li button{width:12px;height:12px;background: #8e8e8e;}
 .productSlider .slick-dots li.slick-active button{background:#000;}
 .productSlider .slick-dots{bottom: -40px}
+
 .innerProductRange{width: 100%;float: left;text-align: center;}
 .innerProductRange h1{text-align: center;font-size: 45px;position: relative;color: #01599a;font-family: 'GOTHIC';font-weight: 100;padding-bottom: 5px;}
 .innerProductRange > p{width:740px;display:inline-block;font-size: 20px;line-height: 32px;}
-.innerProductRange .button{float: none;padding-top: 30px;padding-bottom: 10px;}
+.innerProductRange .button{float: none;padding-top: 30px;padding-bottom: 30px;}
 .innerProductRange .productDescription{width: 100%;float: left;position: relative;cursor: pointer;overflow: hidden;}
 .innerProductRange .productDescription img{width: 100%;transition: 0.6s;}
 .innerProductRange .productDescription .productItem{width: auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
@@ -319,18 +385,28 @@ font-weight: normal;
 .innerProductRange .productDescription:hover .arrow{right: 20px;}
 .innerProductRange .productDescription img.productImg{transition: 5.6s;}
 .innerProductRange .productDescription:hover img.productImg{transform: scale(3.2);transition: 10.6s;}
+
 .whySharpSection{width: 100%;float: left;padding: 70px 0;text-align: center;}
 .whySharpSection h2{font-size: 45px;color: #01599a;font-family: 'GOTHIC';font-weight: 100;padding-bottom: 20px;}
 .whySharpSection p{font-size: 14px;line-height: 24px;padding-bottom: 20px;}
 .whySharpSection .button{float: none;}
 /*Air purifier*/
+
+
+
+
+
+
+
+
 /*air purifier mosquito*/
-.breadcrumb{width: 100%;float: left;padding: 20px 0;list-style: none;background-color: #fff;box-shadow:inset 0px 11px 8px -10px #CCC}
+.breadcrumb{width: 100%;float: left;padding: 20px 100px;list-style: none;background-color: #fff;box-shadow:inset 0px 11px 8px -10px #CCC}
 .breadcrumb li {display: inline;font-size: 18px;}
 .breadcrumb li+li:before {padding: 8px;color: black;content: ">";}
 .breadcrumb li a {color: #000;text-decoration: none;font-size: 15px;font-weight: bold;}
 .breadcrumb li a:hover {color: #01447e;}
 .breadcrumb li.active a{color: #ed3237;}
+
 .air-mosquito-product{width: 100%;float: left;}
 .air-mosquito-product li{width: 33.33%;float:left;position: relative;}
 .air-mosquito-product li > img{width: 100%;}
@@ -339,9 +415,20 @@ font-weight: normal;
 .air-mosquito-product li .mosquito-product-info a{font-size: 18px;color: #ed3237;font-weight: bold;margin-top: 15px;font-family: 'GOTHICB';display: block}
 .air-mosquito-product li .mosquito-product-info a img{margin-left: 10px;}
 .air-mosquito-product li .mosquito-productImg{width: auto;position: absolute;bottom: 0;right: 60px;}
+
+
+.air-mosquito-product-two{width: 100%;float: left;}
+.air-mosquito-product-two li{width: 50%;float:left;position: relative;}
+.air-mosquito-product-two li > img{width: 100%;}
+.air-mosquito-product-two li .mosquito-product-info{position: absolute;top: 50px;left: 70px;}
+.air-mosquito-product-two li .mosquito-product-info h3{font-size: 20px;color: #01599a;}
+.air-mosquito-product-two li .mosquito-product-info a{font-size: 18px;color: #ed3237;font-weight: bold;margin-top: 15px;font-family: 'GOTHICB';display: block}
+.air-mosquito-product-two li .mosquito-product-info a img{margin-left: 10px;}
+.air-mosquito-product-two li .mosquito-productImg{width: 18%;position: absolute;bottom: 0;right: 60px;}
+
 .moquito-product-feature{width: 100%;float: left;}
 .moquito-product-feature .box{width: 33.20%;float: left;background-color: #f4f4f4;padding: 50px;margin-left: 2px;position: relative;
-background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
+  background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
 .moquito-product-feature .box:nth-child(2){background-image: linear-gradient(to right, #e6e6e6 , #eeeeee);}
 .moquito-product-feature .box:nth-child(3){background-image: linear-gradient(to right, #dcdcdb , #e6e6e6);}
 .moquito-product-feature .box:after{content: '';width: 20px;height: 20px;background: url(../images/air-mosquito/gray-icon.png);}
@@ -354,11 +441,13 @@ background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
 .moquito-product-feature .box li img{padding-right: 10px;}
 .moquito-product-feature .product-description{width:100%;float:left;padding: 40px 0;}
 .moquito-product-feature .product-description p{font-size: 14px;font-weight: bold;line-height: 30px;}
+
 .effectiveSection{width: 100%;float: left;background: #f4f4f4;padding: 60px 0}
 .effectiveSection h2{text-align: center;font-size: 20px;padding-bottom: 40px;}
 .effectiveSection li{width:20%;float: left;text-align: center;}
 .effectiveSection li img{padding-bottom: 20px}
 .effectiveSection li p{font-weight: bold;font-size: 18px;}
+
 .LabSection{width: 100%;float: left;text-align: center;padding: 40px 0 60px;position: relative;}
 .LabSection iframe{width: 800px;height: 450px;}
 .LabSection h2{font-size: 20px;padding-bottom: 20px;}
@@ -372,6 +461,7 @@ background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
 .LabSection .slick-next:hover{background: url(../images/rightIcon-hover.png)top left no-repeat;transition: 0.6s;}
 .LabSection .slick-prev:hover{background: url(../images/leftIcon-hover.png)top left no-repeat;transition: 0.6s;}
 /* progress bar */
+
 .specificationSection{width: 100%;float: left;}
 .specificationSection h2{text-align: center;font-size: 20px;padding-bottom: 40px;padding-top: 20px;}
 .specificationSection .table-wrap{width: 100%;float: left;}
@@ -383,20 +473,34 @@ background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
 .specificationSection .buyNowButton a:hover{background: #000}
 .specificationSection .buyNowButton p{font-size: 14px;margin-top: 30px;}
 /*air purifier mosquito*/
+
+
 .videoSection .slider-progress .firstcount1{position: absolute;top: -10px;left: -20px;}
 .videoSection .slider-progress .lastcount1{position: absolute;top: -10px;right: -20px;}
+
+
+
+
+
+
+
 /*Air purifier Dehu*/
+
 /*.innerBannerDehu{width: 100%;float: left;position: relative;}
 .innerBannerDehu img{width: 100%;}
 .innerBannerDehu .breadcrumb{position: absolute;background-color: transparent;}
 .innerBannerDehu .heading{position: absolute;left:100px;top: 50%;transform: translateY(-50%);}
 .innerBannerDehu .heading h1{font-size: 45px;color: #01599a;font-weight: normal;}
 .innerBannerDehu .heading p{font-size: 27px;}*/
+
+
 .dehuProductDespription{width: 100%;float: left;padding: 30px 0}
 .dehuProductDespription h2{font-size: 20px;padding-bottom: 15px;font-family: 'GOTHICB';}
 .dehuProductDespription p{font-size: 14px;padding-bottom: 25px;font-family: 'GOTHIC';}
 .dehuProductDespription .leftSection{width: 58%;float: left;margin-right: 2%;}
 .dehuProductDespription .leftSection iframe{width: 100%;height:400px;float: left;}
+
+
 .dehuProductDespription .rightSection{width: 40%;float: left;height: 400px;padding: 30px;color: #fff;
 background-color: #fe4d52;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#fe4d52), to(#df262b));
@@ -409,33 +513,69 @@ filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#fe4d52', en
 .dehuProductDespription .rightSection li{padding-bottom: 22px;font-size: 14px;}
 .dehuProductDespription .rightSection li:first-child{font-size: 20px;font-weight: bold;}
 .dehuProductDespription .rightSection li img{padding-right: 8px;}
+
 /*Air purifier Dehu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*global*/
 .overflowHidden{width: 100%;float: left;padding: 0;margin:0;overflow: hidden;position: relative;}
 .socialSection{width: auto;float: left;position: fixed;top: 50%;left: 0;transform: translateY(-50%);z-index: 999;background:#fff;padding: 10px;box-shadow: 0px 0px 20px #a0a0a0;transition: 0.2s}
 .socialSection:hover{padding-left: 20px;transition: 0.2s}
 .socialSection li{padding: 5px 0;}
+
 .enquerySection{width: auto;float: left;position: fixed;top: 50%;right: -48px;transform: translateY(-50%) rotate(-90deg);z-index: 999;background:#fff;padding: 10px 0;box-shadow: 0px 0px 20px #a0a0a0;cursor: pointer}
 .enquerySection span{font-weight: bold;font-size: 16px;padding: 10px 20px;background: url(../images/button-mark.png)top right no-repeat;}
 .mobileNavigation{display: none;}
+
+
+
+
 .button-plain {width: auto;background-color: #ed3237;color: #fff;padding: 10px 15px;-webkit-transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);
 transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;overflow: hidden;}
 .button-plain:hover{background: #000}
 .icon-arrow {display: inline-block;width: 23px;height: 15px;background: url(../images/button-arrow.png) no-repeat;background-size: 23px 15px;margin-left: 15px;}
-.enquiryForm{width: 100%;float: left;height: 100vh;background: #000000ad;position: fixed;top: 0;left: 0;z-index: 999;display: none;}
+
+.enquiryForm{width: 100%;float: left;height: 100vh;background-color: rgba(-255, -255, -255, 0.73);position: fixed;top: 0;left: 0;z-index: 999;display: none;}
 .enquiryForm .form{width: 330px;float: left;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);background: #fff;padding: 25px;}
 .enquiryForm .form .closeButton{position: absolute;right: 0;top: 0;padding: 10px;background: #ed3237;cursor: pointer;}
 .enquiryForm .form .closeButton img{margin:0;}
 .enquiryForm .form h2{font-size: 17px;}
 .enquiryForm .form input{width: 100%;float: left;padding: 10px;color: #000;border: 1px solid #d7d7d7;margin-top: 8px;font-size: 14px;font-family: 'GOTHIC';}
-.enquiryForm .form select{width: 100%;float: left;padding: 10px;color: #000;border: 1px solid #d7d7d7;margin-top: 8px;font-size: 14px;font-family: 'GOTHIC';}
+.enquiryForm .form select{width: 100%;float: left;padding: 10px;color: #000;border: 1px solid #d7d7d7;margin-top: 8px;font-size: 14px;font-family: 'GOTHIC';cursor: pointer;}
 .enquiryForm .form textarea{width: 100%;float: left;padding: 10px;color: #000;border: 1px solid #d7d7d7;margin-top: 8px;font-size: 14px;resize: none;font-family: 'GOTHIC';}
 ::-webkit-input-placeholder {color: #000;}
 :-ms-input-placeholder {color: #000;}
 ::placeholder {color: #000;}
 .enquiryForm .form img{width: 100%;margin-top: 8px;}
 .enquiryForm .form a{width: 100%;float: left;font-size: 14px;color: #fff;background:#ed3237;text-align: center;padding: 14px 0;margin-top: 8px;text-transform: uppercase;}
+
 /*global*/
+
+
 /*home page css*/
 .slider-wrapper.consumerArticle {width: 100%; position: relative;}
 .consumerArticle .slider {width: 100%;float: left;}
@@ -451,57 +591,16 @@ transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;ov
 .consumerArticle .slider-progress .lastcount{position: absolute;top: -10px;right: -20px;}
 /*home page css*/
 
-/*Case Studies*/
-.caseStudiSection{ width: 100%; float: left; margin:30px 0 50px; border-bottom: 1px dashed #aaaaaa;}
-.accordionSection{ width: 100%; float: left; }
-.accordionSection h2{ font-size: 16px; color: #282828; border-top: 1px dashed #aaaaaa; padding: 15px 0 17px; font-family: 'GOTHICB'; cursor: pointer; background: url(../images/plus-img.png) 99% 14px no-repeat;}
-.accordionSection h2.active{background: url(../images/minus-img.png) 99% 14px no-repeat;}
-.accordionContent{ width: 100%; display: table; background: #eeeeee; margin:20px 0 40px; display: none;}
-.accLeftSection{ width: 60%; display:table-cell; vertical-align: top; padding: 60px 70px;}
-.accLeftSection h3{ font-size: 36px; color: #01599a; font-weight: 300; position: relative; margin-bottom: 30px;}
-.accLeftSection h3:before{ content: ''; position: absolute; left: -25px; top: 5px; height: 85%; background: #ed3237; width: 10px; }
-.accLeftSection p{ color: #353636; font-size: 18px; line-height: 30px;  margin: 10px 0;}
-.emailSection{ width: 100%; float: left; margin-top: 15px; }
-.accLeftSection input{ width: 300px; border: 1px solid #ed3237; padding: 15px; background: none; color: #353636; font-family: 'GOTHIC'; font-size: 18px; border-right: 0;}
-.accLeftSection a{display: inline-block;color: #fff;background: #ed3237;font-size: 18px;padding: 16px 30px;}
-.accLeftSection a img{ display: inline-block; margin-left: 10px; }
-.accLeftSection a:hover{background: #000}
-.accRightSection{ width: 30%; display:table-cell; vertical-align: top; padding: 40px; background: url(../images/casestudy_cerficateBg.png) left top / 100% 100% repeat-y;}
-.accRightSection img{ width: 100%; box-shadow: 0 0 20px #ccc; }
-/*Case Studies End*/
-
-/*Comapnay Detail End*/
-.companydetailBanner{ width: 100%; float: left; position: relative; }
-.companydetailBanner img{width: 100%;}
-.companydetailBanner .cd-despriction{width:35%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%;}
-.companydetailBanner .cd-despriction h2{font-family: 'GOTHIC'; font-size: 45px; color:#01599a; padding-bottom: 5px; font-weight: 500;}
-.companydetailBanner .cd-despriction p{font-size: 20px; line-height: 32px;}
-
-
-.companyaboutSharp{ width: 100%; float: left; position: relative; margin: 50px 0; }
-.companyaboutSharp img{width: 100%;}
-.companyaboutSharp .aboutsharp_despriction{width:35%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%}
-.companyaboutSharp .aboutsharp_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#080a0f; padding-bottom: 15px; font-weight: 600;}
-.companyaboutSharp .aboutsharp_despriction p{font-size: 18px; line-height: 34px;}
-
-
-.companyprofile{ width: 100%; float: left; position: relative; margin: 0px 0 50px; }
-.companyprofile img{width: 100%;}
-.companyprofile .companyprofile_despriction{width:45%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; right:5%; background: rgba(220,61,74,.9); padding: 30px 30px 20px;}
-.companyprofile .companyprofile_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#fff; padding-bottom: 15px; font-weight: 600;}
-.companyprofile .companyprofile_despriction p{font-size: 14px; margin-bottom: 20px; display: block; color: #fff;}
-
-
-.oursocialSection{ width: 100%; float: left; position: relative; margin: 0px 0 50px; }
-.oursocialSection img{width: 100%;}
-.oursocialSection .oursocial_despriction{width:45%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%;}
-.oursocialSection .oursocial_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#080a0f; padding-bottom: 15px; font-weight: 600;}
-.oursocialSection .oursocial_despriction p{font-size: 14px; margin-bottom: 20px;}
-.oursocialSection .oursocial_despriction span{ color: #ff0000; }
-.youtubeIcon{ width: auto; right: 20%; height: 100%; display: table;  top: 0; bottom: 0; margin: auto; position: absolute; }
-/*Comapnay Detail End*/
 
 
 /*videoOverlay*/
 /*.videoOverlay{width: 100%;float: left;}*/
 /*videoOverlay*/
+
+
+
+
+
+
+
+

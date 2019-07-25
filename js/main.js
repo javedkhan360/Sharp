@@ -1,33 +1,5 @@
-var winWidth = $(window).width()
 $(function(){
 
-//Accordion
-//$(".accordionContent:gt(0)").hide();
-$(".accordionSection h2").click(function(){
-if ($(this).hasClass('active')==true){
-$(".accordionSection h2").removeClass('active');
-$(this).next().slideUp();
-return false; 
-  }
-$(".accordionContent").slideUp();
-$(".accordionSection h2").removeClass('active');
-$(this).addClass('active');
-$(this).next().slideDown();
-  })
-
-  if(winWidth<=967){
-  $(".rightMenu > ul > li > a").click(function(){
-    if ($(this).hasClass('active')==true){
-    $(".rightMenu > ul > li > a").removeClass('active');
-    $(this).next().slideUp();
-    return false;	
-      }
-    $(".dropdown").slideUp();
-    $(".rightMenu > ul > li > a").removeClass('active');
-    $(this).addClass('active');
-    $(this).next().slideDown();
-      })
-    }
 
 $(document).ready(function(){
   var $firststatus = $('.firstcount');
