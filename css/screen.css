@@ -1,3 +1,8 @@
+
+@media (min-width:900px){
+    .main-header .rightMenu li:hover ul.dropdown{opacity: 1;transition: 0.6s;visibility: visible;}
+
+}
 @media screen and (max-width: 1600px){
     /*home page*/
     .CertificateSection .rightSection .slick-next{right: 18%}
@@ -5,7 +10,7 @@
 
 
     /*air purifier*/
-    .container{width: 95%;}
+    /*.container{width: 95%;}*/
     .top-header li a{font-size: 10px;}
     .main-header .rightMenu li{padding-right: 30px;}
     .main-header .rightMenu li a{font-size:16px;}
@@ -15,6 +20,11 @@
     .techonologySection .technology-product-detail .button{bottom: 265px;}
     .whySharpSection{padding: 70px;}
     /*air purifier*/
+
+
+    /*Air purifier mosquioto*/
+    .moquito-product-feature .box{width: 33.15%;}
+    /*Air purifier mosquioto*/
 }
 
 
@@ -22,7 +32,7 @@
 
 @media screen and (max-width: 1440px){
     /*home page css*/
-    .container{width: 100%;}
+    /*.container{width: 100%;}*/
     .bannerSection .box .banner-content{top: 50px;left:100px;}
     .bannerSection .box .banner-content .bannerButton{margin-top: 50px;}
     .companyReviewSection{margin-top: -50px;}
@@ -46,13 +56,26 @@
     .bannerProductDetails .rightSection h1, .techonologySection h2, .productSlider .box-slide .slide-despriction h2, .innerProductRange h1, .whySharpSection h2{font-size: 35px;}
     .bannerProductDetails .rightSection p{font-size: 22px;}
     /*.button a{font-size: 15px;padding: 10px 15px;}*/
-    .bannerProductDetails .leftSection img{width: 25%;}
+    .bannerProductDetails .leftSection img{width: 35%;}
+    .air-mosquito-product-two li .mosquito-productImg{width: 24%;}
     /*air-purifier*/
+
+
+    /*Air purifier mosquito*/
+    .bannerSection.air-purifier-mosquito{height: auto;overflow: visible;}
+    .bannerSection.air-purifier-mosquito .slick-dots{bottom: 40px;}
+
+    /*Air purifier mosquito*/
 }
 
 @media screen and (max-width: 1366px){
     /*home page*/
+    .main-header .rightMenu li ul.dropdown{top: 60px;}
     .CertificateSection .rightSection .slick-next{right: 8%}
+    .productRangeSection .productDescription p{font-size: 16px;}
+    .productRangeSection .productDescription .arrow{width: 40px;}
+    .videoSection .rightSection {padding: 50px 0;padding-left: 130px;}
+    .CertificateSection .leftSection{padding: 40px 30px;}
     /*home page*/
 
 
@@ -81,12 +104,10 @@
     /*home page css*/
 
     /*air-purifier*/
-    .main-header .rightMenu li{padding-right: 20px;}
+    .main-header .rightMenu li{padding-right: 24px;}
     .brandLogo{width: 53%;}
     .techonologySection .technology-product-detail .button {bottom: 207px;right: 70px;}
     /*air-purifier*/
-    .footerSection {    padding: 80px 80px; font-size:0;}
-    .footerSection .footerOpation{ float: none; width: 33%; display: inline-block; vertical-align: top;}
 }
 
 
@@ -117,7 +138,8 @@
     .CertificateSection .leftSection p{width: 450px;}
     .CertificateSection .rightSection img{width: 90%}
     .footerSocialStrip .leftSection{width: 100%;}
-    .footerSocialStrip .rightSection{width: 100%;margin-top: 10px;}
+    .footerSocialStrip .rightSection{width: 100%;margin-top: 10px;text-align: center;}
+    .footerSocialStrip .leftSection ul{padding-left: 100px;}
     .videoSection .leftSection{width: 100%;}
     .videoSection .rightSection{width: 100%;margin: 0;}
     .satisfyConsumerSection{margin-top: 100px;}
@@ -137,7 +159,7 @@
     .main-header .logo{width: 20%;}
     .main-header .rightMenu{width: 80%}
     .main-header .rightMenu li a{font-size: 14px;}
-    .main-header{padding: 0 20px;}
+    /*.main-header{padding: 0 20px;}*/
     .main-header .rightMenu li a span{background-position-y: 3px;}
     .brandLogo{width: 66%;}
     .bannerProductDetails .rightSection h1, .techonologySection h2, .productSlider .box-slide .slide-despriction h2, .innerProductRange h1, .whySharpSection h2{font-size: 25px}
@@ -148,6 +170,8 @@
     .techonologySection .technology-product-detail ul{width: 90%;left: 10%;}
     .techonologySection .technology-product-detail li{font-size:14px;}
     .whySharpSection{padding: 30px;}
+    .icon-arrow{display: none;}
+    .button-plain{padding-right: 20px;}
     /*air purifier*/
 
 
@@ -156,16 +180,39 @@
     .moquito-product-feature .box{padding: 20px;}
     .moquito-product-feature .box li{font-size: 13px;}
     /*air purifier mosquito*/
-    .companydetailBanner .cd-despriction h2{font-size: 34px;}
-    .companydetailBanner .cd-despriction p {font-size: 20px;line-height: 32px;}
-    .companyaboutSharp .aboutsharp_despriction{ width: 50%;}
-    .companyprofile .companyprofile_despriction p{margin-bottom: 10px;}
-    .companyprofile .companyprofile_despriction{ padding:20px;}
-    .companyaboutSharp .aboutsharp_despriction p {font-size: 16px;line-height: 26px;}
 }
 
 
 @media screen and (max-width: 900px){
+    .main-header .rightMenu{width:100%;height:100%;background:#fff;display: block;position: fixed; top: 0;left: 0;z-index: 9999;overflow: auto;
+        padding-bottom: 90px;padding-top: 50px; }
+
+.main-header .rightMenu{
+-webkit-transform: translateY(100%);
+-moz-transform: translateY(100%);
+transform: translateY(100%);
+opacity: 0; 
+transition-duration:1s;
+}
+
+.main-header .rightMenu.active{
+-webkit-transform: translateY(0px);
+-moz-transform: translateY(0px);
+transform: translateY(0px);
+opacity: 1; 
+transition-duration:1s;
+}  
+
+    .main-header .rightMenu li{width:100%;float:left;padding: 0;}
+    .main-header .rightMenu li:last-child{display: none;}
+    .main-header .rightMenu li ul.dropdown{display: none; width: 100%;position: relative;z-index: 2;background: #ed3237;top: 0;left: 0;opacity: 1;visibility: visible;}
+
+   
+    .main-header .rightMenu li ul.dropdown li{background: #ed3237;padding: 0 20px;}
+    .main-header .rightMenu li a {font-size: 14px;width: 100%;float: left;text-align: left;padding: 15px;}
+    .main-header .rightMenu li a span{position: absolute;right: 10px;top:18px;}
+    .main-header .rightMenu li a:hover span{top:21px;}
+    .main-header .rightMenu .closeButton {position: absolute;right: 0;top: 0;padding: 10px;background: #ed3237;}
     /*Mobile Navigation*/
     .mobileNavigation{width: 100%;position: fixed;bottom: 0;left: 0;z-index: 9999;box-shadow: 0px 0px 20px #c1c1c1;background: #fff;display: block;}
     .mobileNavigation li{width: 25%;float: left;text-align: center;border-right: 1px solid #f5f5f5;padding: 10px 0 15px;}
@@ -183,7 +230,7 @@
     /*home page css*/
     .main-header .rightMenu li #content {width: 50%;float: left;position: absolute;top: 5px;right: -120px;}
     .main-header .rightMenu li .square {width: 350px;height: 47px;margin-top: 5px;}
-    .main-header .rightMenu, .top-header{display: none;}
+    .top-header{display: none;}
     .main-header{padding: 20px;}
     .bannerSection .box .banner-content p{display: none;}
     .bannerSection .box .banner-content h1{text-transform: uppercase;}
@@ -213,11 +260,11 @@
     .CertificateSection .rightSection img{width: 100%;}
     .satisfyConsumerSection .consumerArticle .slick-prev{left: 66%;}
     .satisfyConsumerSection .consumerArticle .slick-next{right: 25%;}
-    .footerSection{padding: 40px 70px; font-size: 0;}
-    .footerSection .footerOpation{width: 50%;margin-bottom: 30px; float: none; display: inline-block; vertical-align: top;}
+    .footerSection{padding: 40px;}
+    .footerSection .footerOpation{width: 50%;margin-bottom: 30px;height:150px;}
     .footerSection .footerOpation.autoHeight{height: auto;}
     .footerSection .footerOpation:last-child{width: 100%;height: auto;}
-    .footerSection .footerOpation:last-child ul li{width: 50%;float: left;}
+    .footerSection .footerOpation:last-child ul li{width: 100%;float: left;}
     .footerSection .footerOpation:last-child ul li:first-child{width: 100%;float: left;}
     .socialSection/*{display: none;}
     .enquerySection{display: none;}*/
@@ -265,11 +312,12 @@
     .innerProductRange > p{width: 80%;}
     .innerProductRange .button{padding-top: 10px;}
     .brandLogo li{width: 33.33%;padding: 0;background: none;}
-    .brandLogo li img{width: 100%;}
+    .brandLogo li img{width: 35%;}
     .brandLogo li:last-child img{width: 100%;}
     .bannerProductDetails .leftSection{padding-right: 50px;}
     .icon-arrow{display: none;}
     .button-plain {padding: 10px 20px;}
+    .footerSocialStrip .leftSection ul{padding-left: 0}
     /*air purifier*/
 
 
@@ -297,34 +345,6 @@
     /*air purifier dehu*/
     .dehuProductDespription .rightSection{padding: 13px;}
     /*air purifier dehu*/
-
-/*Case Studies*/
-.caseStudiSection{ margin-top: 0; float: left;}
-.accordionContent{float: left;    margin: 0px 0 40px;}
-.accLeftSection, .accRightSection{ width: 100%; float: left; }
-.accLeftSection{padding: 20px 20px;}
-.accLeftSection h3{font-size: 24px;}
-.accLeftSection h3:before{ width: 5px;left: -15px;height: 100%; top: 0;}
-
-.companydetailBanner .cd-despriction{width: 85%;top: 10%; display:inherit; padding: 0 5%; left: 0;}
-.companydetailBanner .cd-despriction h2{font-size: 26px;}
-.companydetailBanner .cd-despriction p{    font-size: 15px;    line-height: normal;}
-
-
-.companyaboutSharp{ margin: 20px 0;}
-.companyaboutSharp .aboutsharp_despriction{ width: 50%; }
-.companyaboutSharp .aboutsharp_despriction h2{font-size:18px; padding-bottom: 5px}
-.companyaboutSharp .aboutsharp_despriction p{font-size: 16px; line-height: normal;}
-
-.companyprofile{margin-bottom: 30px;}
-.companyprofile .companyprofile_despriction{ width: 70%; padding:20px; height: 230px; display: inherit; overflow: hidden;}
-.companyprofile .companyprofile_despriction h2{font-size:18px; padding-bottom: 5px; text-transform: none;}
-.companyprofile .companyprofile_despriction p{font-size: 13px; line-height: normal; margin-bottom: 10px;}
-
-.oursocialSection{ padding:0 5%; margin-bottom: 30px;}
-.youtubeIcon{ display: none;}
-.oursocialSection .oursocial_despriction{ width: 100%; left: 0; display: inherit; position: relative; margin-bottom:10px;}
-
 }
 
 
@@ -373,6 +393,7 @@
     .footerSection{padding: 20px;padding-top: 3 0px;}
     .footerSection .footerOpation li:first-child a{font-size: 16px;padding-bottom: 10px;display: block;}
     .footerSection .footerOpation li{padding-bottom: 1px;}
+    .footerSection .footerOpation{height: 140px;}
     .footerSection .footerOpation:last-child ul li{width: 100%;}
     .footerSocialStrip .rightSection li a{font-size: 12px;}
     .footerSocialStrip .rightSection li:first-child a{padding-right: 0}
@@ -436,27 +457,18 @@
     .productSlider .box-slide .slide-despriction p{width:50%;}
     .footerSocialStrip{padding:0;padding-bottom: 90px;}
     .main-header .logo{padding: 0;}
-    .main-header{padding: 20px;}
+    .main-header{padding: 20px 0;}
     .main-header .logo{width: 30%;}
     .main-header .logo img{width: 100%;}
 
 
-    .main-header .rightMenu{width:100%;height:100%;background:#fff;display: block;position: fixed;top: 100%;left: 0;z-index: 9999;overflow: auto;padding-bottom: 90px;padding-top: 50px;}
-    
-    .main-header .rightMenu > ul > li{width:100%;float:left;padding: 0;}
 
-    .main-header .rightMenu li:last-child{display: none;}
-
-    .main-header .rightMenu li ul.dropdown{display: none; width: 100%; float: left; position: relative; z-index: 2;background: #ed3237;
-        top: 0;left: 0;opacity: 1;visibility:initial; transition:initial;}
-
-    .main-header .rightMenu li:hover ul.dropdown{opacity: 1;visibility:initial; transition: initial;}
-    
-    .main-header .rightMenu li ul.dropdown li{background: #ed3237;padding: 0 20px;}
-    .main-header .rightMenu > ul > li a {font-size: 14px;width: 100%;float: left;text-align: left;padding: 15px;}
-    .main-header .rightMenu > ul > li a span{position: absolute;right: 10px;top:18px;}
-    .main-header .rightMenu > ul > li a.active span{top:21px;}
-    .main-header .rightMenu .closeButton {position: absolute;right: 0;top: 0;padding: 10px;background: #ed3237;}
+    .bannerProductDetails .rightSection h1{font-size:23px;}
+    .bannerProductDetails .rightSection{padding-right: 38px;}
+    .innerProductRange .button {padding-top: 20px;padding-bottom: 30px;}
+    .brandLogo li img{width: 100%}
+    .brandLogo li:last-child img{width: 100%;}
+    .companyReviewSection li .rightSection span{font-size: 10px;}
     /*air purifier*/
 
     /*air purifier mosquito*/
@@ -473,6 +485,8 @@
 
     .specificationSection .table-wrap{width: 100%;float: left;overflow-x: scroll}
     .specificationSection table{width: 600px;float: left;background: #f4f4f4;}
+    .air-mosquito-product-two li{width: 100%;}
+    .air-mosquito-product-two li .mosquito-product-info{top: 20px;left: 20px;}
     /*air purifier mosquito*/
 
 
@@ -482,13 +496,6 @@
     .dehuProductDespription .leftSection iframe{height: 200px;}
     .dehuProductDespription .rightSection{width: 100%;height:auto;margin: 0;}
     /*air purifier dehu*/
-
-/*Case Studies*/
- .accLeftSection input{ width: 100%; border-right: 1px solid #ed3237; margin-bottom: 10px;}
- .accLeftSection p{ margin:5px 0; }
- .companydetailBanner .cd-despriction{width: 100%; top: 3%;} 
- .companyaboutSharp .aboutsharp_despriction {width: 70%;}
- .companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;}  
 }
 
 @media screen and (max-width: 320px){
