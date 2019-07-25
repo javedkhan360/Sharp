@@ -108,6 +108,9 @@
     .brandLogo{width: 53%;}
     .techonologySection .technology-product-detail .button {bottom: 207px;right: 70px;}
     /*air-purifier*/
+
+    .footerSection {    padding: 80px 80px; font-size:0;}
+    .footerSection .footerOpation{ float: none; width: 33%; display: inline-block; vertical-align: top;}
 }
 
 
@@ -180,6 +183,13 @@
     .moquito-product-feature .box{padding: 20px;}
     .moquito-product-feature .box li{font-size: 13px;}
     /*air purifier mosquito*/
+
+    .companydetailBanner .cd-despriction h2{font-size: 34px;}
+    .companydetailBanner .cd-despriction p {font-size: 20px;line-height: 32px;}
+    .companyaboutSharp .aboutsharp_despriction{ width: 50%;}
+    .companyprofile .companyprofile_despriction p{margin-bottom: 10px;}
+    .companyprofile .companyprofile_despriction{ padding:20px;}
+    .companyaboutSharp .aboutsharp_despriction p {font-size: 16px;line-height: 26px;}
 }
 
 
@@ -260,9 +270,8 @@ transition-duration:1s;
     .CertificateSection .rightSection img{width: 100%;}
     .satisfyConsumerSection .consumerArticle .slick-prev{left: 66%;}
     .satisfyConsumerSection .consumerArticle .slick-next{right: 25%;}
-    .footerSection{padding: 40px;}
-    .footerSection .footerOpation{width: 50%;margin-bottom: 30px;height:150px;}
-    .footerSection .footerOpation.autoHeight{height: auto;}
+    .footerSection{padding: 40px 70px; font-size: 0;}
+    .footerSection .footerOpation{width: 50%;margin-bottom: 30px; float: none; display: inline-block; vertical-align: top;}.footerSection .footerOpation.autoHeight{height: auto;}
     .footerSection .footerOpation:last-child{width: 100%;height: auto;}
     .footerSection .footerOpation:last-child ul li{width: 100%;float: left;}
     .footerSection .footerOpation:last-child ul li:first-child{width: 100%;float: left;}
@@ -345,6 +354,33 @@ transition-duration:1s;
     /*air purifier dehu*/
     .dehuProductDespription .rightSection{padding: 13px;}
     /*air purifier dehu*/
+
+    /*Case Studies*/
+.caseStudiSection{ margin-top: 0; float: left;}
+.accordionContent{float: left;    margin: 0px 0 40px;}
+.accLeftSection, .accRightSection{ width: 100%; float: left; }
+.accLeftSection{padding: 20px 20px;}
+.accLeftSection h3{font-size: 24px;}
+.accLeftSection h3:before{ width: 5px;left: -15px;height: 100%; top: 0;}
+
+.companydetailBanner .cd-despriction{width: 85%;top: 10%; display:inherit; padding: 0 5%; left: 0;}
+.companydetailBanner .cd-despriction h2{font-size: 26px;}
+.companydetailBanner .cd-despriction p{    font-size: 15px;    line-height: normal;}
+
+
+.companyaboutSharp{ margin: 20px 0;}
+.companyaboutSharp .aboutsharp_despriction{ width: 50%; }
+.companyaboutSharp .aboutsharp_despriction h2{font-size:18px; padding-bottom: 5px}
+.companyaboutSharp .aboutsharp_despriction p{font-size: 16px; line-height: normal;}
+
+.companyprofile{margin-bottom: 30px;}
+.companyprofile .companyprofile_despriction{ width: 70%; padding:20px; height: 230px; display: inherit; overflow: hidden;}
+.companyprofile .companyprofile_despriction h2{font-size:18px; padding-bottom: 5px; text-transform: none;}
+.companyprofile .companyprofile_despriction p{font-size: 13px; line-height: normal; margin-bottom: 10px;}
+
+.oursocialSection{ padding:0 5%; margin-bottom: 30px;}
+.youtubeIcon{ display: none;}
+.oursocialSection .oursocial_despriction{ width: 100%; left: 0; display: inherit; position: relative; margin-bottom:10px;}
 }
 
 
@@ -393,7 +429,6 @@ transition-duration:1s;
     .footerSection{padding: 20px;padding-top: 3 0px;}
     .footerSection .footerOpation li:first-child a{font-size: 16px;padding-bottom: 10px;display: block;}
     .footerSection .footerOpation li{padding-bottom: 1px;}
-    .footerSection .footerOpation{height: 140px;}
     .footerSection .footerOpation:last-child ul li{width: 100%;}
     .footerSocialStrip .rightSection li a{font-size: 12px;}
     .footerSocialStrip .rightSection li:first-child a{padding-right: 0}
@@ -496,6 +531,14 @@ transition-duration:1s;
     .dehuProductDespription .leftSection iframe{height: 200px;}
     .dehuProductDespription .rightSection{width: 100%;height:auto;margin: 0;}
     /*air purifier dehu*/
+
+   /*Case Studies*/
+ .accLeftSection input{ width: 100%; border-right: 1px solid #ed3237; margin-bottom: 10px;}
+ .accLeftSection p{ margin:5px 0; }
+ .companydetailBanner .cd-despriction{width: 100%; top: 3%;} 
+ .companyaboutSharp .aboutsharp_despriction {width: 70%;}
+ .companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;} 
+ .bannerSection.air-purifier-mosquito .slick-dots{ bottom: 10px;} 
 }
 
 @media screen and (max-width: 320px){
@@ -504,7 +547,6 @@ transition-duration:1s;
     .productRangeSection .productDescription .arrow{display: none;}
     .satisfyConsumerSection .sectionHeading h1{font-size: 14px;}
     .CertificateSection .leftSection .bannerButton a img{display: none;}        
-    .footerSection .footerOpation{height: 260px;}
     .footerSection .footerOpation li:first-child a{font-size: 13px;}
     .footerSocialStrip .rightSection li a{font-size: 11px;}
     .footerSocialStrip .rightSection li{padding-left: 2px;}

@@ -1,5 +1,34 @@
+var winWidth = $(window).width()
 $(function(){
 
+	$(".navMenu").click(function(){
+		$(".main-header .rightMenu").addClass("active")
+	});
+	$(".closeButton").click(function(){
+		$(".main-header .rightMenu").removeClass("active")
+	});
+
+	$('.main-header .rightMenu li').click(function(){
+		$(this).find('.dropdown').slideToggle();
+		$(this).siblings().find('.dropdown').slideUp();
+	});
+
+ //Accordion
+//$(".accordionContent:gt(0)").hide();
+$(".accordionSection h2").click(function(){
+  if ($(this).hasClass('active')==true){
+  $(".accordionSection h2").removeClass('active');
+  $(this).next().slideUp();
+  return false; 
+    }
+  $(".accordionContent").slideUp();
+  $(".accordionSection h2").removeClass('active');
+  $(this).addClass('active');
+  $(this).next().slideDown();
+    })
+  
+      
+      
 
 $(document).ready(function(){
   var $firststatus = $('.firstcount');

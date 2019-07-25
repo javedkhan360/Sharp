@@ -94,7 +94,7 @@ body * {box-sizing: border-box;}
 
 
 .mainContainer{width: 100%;float: left;overflow: hidden;}
-.container{width: 90%;margin: 0 auto}
+.container{width: 90%;margin: 0 auto; position: relative;}
 
 
 
@@ -400,7 +400,7 @@ font-weight: normal;
 
 
 /*air purifier mosquito*/
-.breadcrumb{width: 100%;float: left;padding: 20px 100px;list-style: none;background-color: #fff;box-shadow:inset 0px 11px 8px -10px #CCC}
+.breadcrumb{width: 100%;float: left;padding: 20px 0;list-style: none;background-color: #fff;box-shadow:inset 0px 11px 8px -10px #CCC}
 .breadcrumb li {display: inline;font-size: 18px;}
 .breadcrumb li+li:before {padding: 8px;color: black;content: ">";}
 .breadcrumb li a {color: #000;text-decoration: none;font-size: 15px;font-weight: bold;}
@@ -592,6 +592,55 @@ transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;ov
 /*home page css*/
 
 
+/*Case Studies*/
+.caseStudiSection{ width: 100%; float: left; margin:30px 0 50px; border-bottom: 1px dashed #aaaaaa;}
+.accordionSection{ width: 100%; float: left; }
+.accordionSection h2{ font-size: 16px; color: #282828; border-top: 1px dashed #aaaaaa; padding: 15px 0 17px; font-family: 'GOTHICB'; cursor: pointer; background: url(../images/plus-img.png) 99% 14px no-repeat;}
+.accordionSection h2.active{background: url(../images/minus-img.png) 99% 14px no-repeat;}
+.accordionContent{ width: 100%; display: table; background: #eeeeee; margin:20px 0 40px; display: none;}
+.accLeftSection{ width: 60%; display:table-cell; vertical-align: top; padding: 60px 70px;}
+.accLeftSection h3{ font-size: 36px; color: #01599a; font-weight: 300; position: relative; margin-bottom: 30px;}
+.accLeftSection h3:before{ content: ''; position: absolute; left: -25px; top: 5px; height: 85%; background: #ed3237; width: 10px; }
+.accLeftSection p{ color: #353636; font-size: 18px; line-height: 30px;  margin: 10px 0;}
+.emailSection{ width: 100%; float: left; margin-top: 15px; }
+.accLeftSection input{ width: 300px; border: 1px solid #ed3237; padding: 15px; background: none; color: #353636; font-family: 'GOTHIC'; font-size: 18px; border-right: 0;}
+.accLeftSection a{display: inline-block;color: #fff;background: #ed3237;font-size: 18px;padding: 16px 30px;}
+.accLeftSection a img{ display: inline-block; margin-left: 10px; }
+.accLeftSection a:hover{background: #000}
+.accRightSection{ width: 30%; display:table-cell; vertical-align: top; padding: 40px; background: url(../images/casestudy_cerficateBg.png) left top / 100% 100% repeat-y;}
+.accRightSection img{ width: 100%; box-shadow: 0 0 20px #ccc; }
+/*Case Studies End*/
+
+/*Comapnay Detail End*/
+.companydetailBanner{ width: 100%; float: left; position: relative; }
+.companydetailBanner img{width: 100%;}
+.companydetailBanner .cd-despriction{width:35%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%;}
+.companydetailBanner .cd-despriction h2{font-family: 'GOTHIC'; font-size: 45px; color:#01599a; padding-bottom: 5px; font-weight: 500;}
+.companydetailBanner .cd-despriction p{font-size: 20px; line-height: 32px;}
+
+
+.companyaboutSharp{ width: 100%; float: left; position: relative; margin: 50px 0; }
+.companyaboutSharp img{width: 100%;}
+.companyaboutSharp .aboutsharp_despriction{width:35%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%}
+.companyaboutSharp .aboutsharp_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#080a0f; padding-bottom: 15px; font-weight: 600;}
+.companyaboutSharp .aboutsharp_despriction p{font-size: 18px; line-height: 34px;}
+
+
+.companyprofile{ width: 100%; float: left; position: relative; margin: 0px 0 50px; }
+.companyprofile img{width: 100%;}
+.companyprofile .companyprofile_despriction{width:45%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; right:5%; background: rgba(220,61,74,.9); padding: 30px 30px 20px;}
+.companyprofile .companyprofile_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#fff; padding-bottom: 15px; font-weight: 600;}
+.companyprofile .companyprofile_despriction p{font-size: 14px; margin-bottom: 20px; display: block; color: #fff;}
+
+
+.oursocialSection{ width: 100%; float: left; position: relative; margin: 0px 0 50px; }
+.oursocialSection img{width: 100%;}
+.oursocialSection .oursocial_despriction{width:45%;position: absolute; top: 0; bottom: 0; height: 100%; margin: auto; display: table; left: 5%;}
+.oursocialSection .oursocial_despriction h2{font-family: 'GOTHIC'; font-size: 20px; color:#080a0f; padding-bottom: 15px; font-weight: 600;}
+.oursocialSection .oursocial_despriction p{font-size: 14px; margin-bottom: 20px;}
+.oursocialSection .oursocial_despriction span{ color: #ff0000; }
+.youtubeIcon{ width: auto; right: 20%; height: 100%; display: table;  top: 0; bottom: 0; margin: auto; position: absolute; }
+/*Comapnay Detail End*/
 
 /*videoOverlay*/
 /*.videoOverlay{width: 100%;float: left;}*/
