@@ -597,7 +597,8 @@ transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;ov
 .accordionSection{ width: 100%; float: left; }
 .accordionSection h2{ font-size: 16px; color: #282828; border-top: 1px dashed #aaaaaa; padding: 15px 0 17px; font-family: 'GOTHICB'; cursor: pointer; background: url(../images/plus-img.png) 99% 14px no-repeat;}
 .accordionSection h2.active{background: url(../images/minus-img.png) 99% 14px no-repeat;}
-.accordionContent{ width: 100%; display: table; background: #eeeeee; margin:20px 0 40px; display: none;}
+.accordionContent{ width: 100%; display: table; background: #eeeeee; margin:20px 0 40px;}
+.accordianTabing{display: none;}
 .accLeftSection{ width: 60%; display:table-cell; vertical-align: top; padding: 60px 70px;}
 .accLeftSection h3{ font-size: 36px; color: #01599a; font-weight: 300; position: relative; margin-bottom: 30px;}
 .accLeftSection h3:before{ content: ''; position: absolute; left: -25px; top: 5px; height: 85%; background: #ed3237; width: 10px; }
@@ -641,6 +642,33 @@ transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;ov
 .oursocialSection .oursocial_despriction span{ color: #ff0000; }
 .youtubeIcon{ width: auto; right: 20%; height: 100%; display: table;  top: 0; bottom: 0; margin: auto; position: absolute; }
 /*Comapnay Detail End*/
+
+
+/*Delar Locator*/
+.bannerSection{ width:100%; float:left;}
+.bannerSection img{ width:100%;}
+.dealarlocatorSection{ width:100%; float:left; margin: 40px 0;}
+.locatorHeading{ width:100%; float:left; text-align: center; margin-bottom: 40px;}
+.locatorHeading h2{ font-size:20px; margin-bottom: 15px; font-family: 'GOTHICB';}
+.locatorHeading p{ font-size:14px;}
+.locatorFormSection{ width:100%; float:left; margin: 0 0 40px;}
+.locatorForm{ width:100%; display: flex; justify-content: space-around; margin: 0 -10px;}
+.locatorForm .formCol{ flex:1; padding:0 10px;}
+.locatorForm .formCol label{ width: 100%; float: left; font-size:14px; color: #282828; margin-bottom: 5px; font-family: 'GOTHICB';}
+.locatorForm .formCol select{ width: 100%; float: left; border:1px solid #a3a3a3; background:url(../images/downarrow.png) 97% center no-repeat; font-size:14px; padding: 14px 15px; appearance: none; -webkit-appearance: none;}
+
+.locatorFormSection .subresetBtn{ width: 100%; float: left; text-align: center; margin: 30px 0 0;}
+.locatorFormSection .subresetBtn a{display: inline-block;color: #fff;background: #ed3237;font-size: 18px;padding: 15px 58px;}
+.locatorFormSection .subresetBtn a:hover{background: #000}
+
+.addresBoxSection{ width:100%;   display: flex;
+  justify-content: space-between; margin: 0 -10px;}
+.addresBoxSection .addresBox{ flex:.5; margin: 10px; background: #f4f4f4; padding:30px; border: 1px solid #e7e7e7;}
+.addresBoxSection .addresBox p{ font-size:14px; margin-bottom: 15px; line-height: 24px;}
+.addresBoxSection .addresBox strong{font-family: 'GOTHICB';}
+
+/*Delar Locator End*/
+
 
 /*videoOverlay*/
 /*.videoOverlay{width: 100%;float: left;}*/

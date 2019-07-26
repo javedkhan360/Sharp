@@ -33,6 +33,7 @@
 @media screen and (max-width: 1440px){
     /*home page css*/
     /*.container{width: 100%;}*/
+	.container{width: 90%}
     .bannerSection .box .banner-content{top: 50px;left:100px;}
     .bannerSection .box .banner-content .bannerButton{margin-top: 50px;}
     .companyReviewSection{margin-top: -50px;}
@@ -381,6 +382,7 @@ transition-duration:1s;
 .oursocialSection{ padding:0 5%; margin-bottom: 30px;}
 .youtubeIcon{ display: none;}
 .oursocialSection .oursocial_despriction{ width: 100%; left: 0; display: inherit; position: relative; margin-bottom:10px;}
+.addresBoxSection .addresBox{ padding: 15px;}
 }
 
 
@@ -538,7 +540,14 @@ transition-duration:1s;
  .companydetailBanner .cd-despriction{width: 100%; top: 3%;} 
  .companyaboutSharp .aboutsharp_despriction {width: 70%;}
  .companyaboutSharp .aboutsharp_despriction p{font-size: 13px; line-height: normal;} 
- .bannerSection.air-purifier-mosquito .slick-dots{ bottom: 10px;} 
+ .bannerSection.air-purifier-mosquito .slick-dots{ bottom: 10px;}
+ .locatorFormSection{ margin: 20px 0;}
+ .locatorForm, .addresBoxSection{ display: block; margin: 0;}
+ .locatorForm .formCol, .addresBoxSection .addresBox{ width: 100%; float: left; margin: 10px 0;} 
+ .locatorForm .formCol{ padding: 0;}
+ .locatorFormSection .subresetBtn{margin: 20px 0 0;}
+ .locatorFormSection .subresetBtn a{padding: 14px 30px;}
+ 
 }
 
 @media screen and (max-width: 320px){
