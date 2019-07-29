@@ -195,7 +195,6 @@ $(document).ready(function(){
   });
   
   $bar = $('.slider-progress .progress');
-  
   $('.slider-wrapper').on({
     mouseenter: function() {
       isPause = true;
@@ -204,37 +203,32 @@ $(document).ready(function(){
       isPause = false;
     }
   })
-  
   function startProgressbar() {
     resetProgressbar();
     percentTime = 0;
     isPause = false;
     tick = setInterval(interval, 20);
   }
-  
   function interval() {
     if(isPause === false) {
       percentTime += 1 / (time+0.1);
       $bar.css({
         width: percentTime+"%"
       });
-      if(percentTime >= 100)
-        {
-          $slick.slick('slickNext');
-          startProgressbar();
-        }
+    if(percentTime >= 100)
+      {
+        $slick.slick('slickNext');
+        startProgressbar();
+      }
     }
-  }  
-  
+  }
   function resetProgressbar() {
     $bar.css({
      width: 0+'%' 
     });
     clearTimeout(tick);
   }
-  
-  startProgressbar();
-  
+  startProgressbar();  
 });
 
 
@@ -370,6 +364,37 @@ $('.certificateSection').slick({
 
 
 
+$('.convenienceSlider').slick({
+  slidesToShow: 1,
+  arrows:true,
+  infinite: true,
+    responsive: [
+    {
+      breakpoint: 1100,
+      settings: {
+        arrows: true,
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 567,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        slidesToShow: 1,
+        autoplay: true
+      }
+    }
+  ]
+});
 
 
 $('.videoSliderSection').slick({

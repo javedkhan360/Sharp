@@ -64,8 +64,11 @@
     /*Air purifier mosquito*/
     .bannerSection.air-purifier-mosquito{height: auto;overflow: visible;}
     .bannerSection.air-purifier-mosquito .slick-dots{bottom: 40px;}
-
     /*Air purifier mosquito*/
+
+    /*Air Humidifier*/
+    .AirConditionRoomSection .rightSection{padding: 15px;}
+    /*Air Humidifier*/
 }
 
 @media screen and (max-width: 1366px){
@@ -183,6 +186,12 @@
     .moquito-product-feature .box{padding: 20px;}
     .moquito-product-feature .box li{font-size: 13px;}
     /*air purifier mosquito*/
+
+
+    /*video*/
+    .video-box .leftSection{width: 100%;}
+    .video-box .rightSection{width: 100%;}
+    /*video*/
 
     .companydetailBanner .cd-despriction h2{font-size: 34px;}
     .companydetailBanner .cd-despriction p {font-size: 20px;line-height: 32px;}
@@ -348,7 +357,19 @@ transition-duration:1s;
     .specificationSection .buyNowButton a{padding: 10px 35px;font-size: 15px;}
     .air-mosquito-product li{width: 100%;}
     .rightMenu .closeButton{display: block;}
+    .air-mosquito-product-two li{width: 100%}
+    .specificationSection table th{font-size: 14px;}
     /*air purifier mosquito*/
+
+    /*Air Humudifier*/
+    .AirConditionRoomSection .leftSection{width: 100%;margin: 0;}
+    .AirConditionRoomSection .rightSection{width: 100%;margin: 0;}
+    .convenienceSection .convenienceDetail{padding-right: 50px;}
+    .convenienceSection .convenienceDetail .leftSection{width: 100%;}
+    .convenienceSection .convenienceDetail .rightSection{width: 100%;}
+    .humidifierCompare h2{font-size:14px;}
+    .AirConditionRoomSection > h2{font-size:16px;}
+    /*Air Humudifier*/
 
 
     /*air purifier dehu*/
@@ -428,7 +449,7 @@ transition-duration:1s;
     .aboutSharpSection .banner-content .bannerButton a img{width: 18px;margin-top:1px;}
     .footerSection{padding: 20px;padding-top: 3 0px;}
     .footerSection .footerOpation li:first-child a{font-size: 16px;padding-bottom: 10px;display: block;}
-    .footerSection .footerOpation li{padding-bottom: 1px;}
+    .footerSection .footerOpation li{padding-bottom: 8px;}
     .footerSection .footerOpation:last-child ul li{width: 100%;}
     .footerSocialStrip .rightSection li a{font-size: 12px;}
     .footerSocialStrip .rightSection li:first-child a{padding-right: 0}
@@ -521,7 +542,9 @@ transition-duration:1s;
     .specificationSection .table-wrap{width: 100%;float: left;overflow-x: scroll}
     .specificationSection table{width: 600px;float: left;background: #f4f4f4;}
     .air-mosquito-product-two li{width: 100%;}
-    .air-mosquito-product-two li .mosquito-product-info{top: 20px;left: 20px;}
+    .air-mosquito-product-two li .mosquito-product-info{top: 15px;left: 15px;}
+    .air-mosquito-product-two li .mosquito-product-info a{font-size: 14px;}
+    .air-mosquito-product-two li .mosquito-product-info a img{width: 16px;}
     /*air purifier mosquito*/
 
 
@@ -531,6 +554,20 @@ transition-duration:1s;
     .dehuProductDespription .leftSection iframe{height: 200px;}
     .dehuProductDespription .rightSection{width: 100%;height:auto;margin: 0;}
     /*air purifier dehu*/
+
+    /*Air humidifier*/
+    .AirConditionRoomSection .rightSection{height: auto;}
+    .convenienceSection{padding: 10px;}
+    .convenienceSection .convenienceDetail{padding-right: 0}
+    .specificationSection.humidifierSpecification table th{float: none;}
+    .specificationSection.humidifierSpecification table td{float: none;}
+    .air-mosquito-product-two li .mosquito-product-info h3{font-size: 16px;}
+    /*Air humidifier*/
+
+    /*video*/
+    .video-box .leftSection{padding: 20px;}
+    .video-box .leftSection h1{padding-left: 0;border:0;font-size: 16px;}
+    .video-box .leftSection p{font-size: 13px;padding-left: 0;line-height: 20px;}
 
    /*Case Studies*/
  .accLeftSection input{ width: 100%; border-right: 1px solid #ed3237; margin-bottom: 10px;}

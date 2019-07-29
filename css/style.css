@@ -242,6 +242,7 @@ font-weight: normal;
 .satisfyConsumerSection .consumerArticle .slick-next{width: 26px;height: 20px;background: url(../images/rightIcon.png)top left no-repeat;right: 45%;margin-top: 250px;}
 .satisfyConsumerSection .consumerArticle .slick-prev{width: 26px;height: 20px;background: url(../images/leftIcon.png)top left no-repeat;left: 51%;margin-top: 250px;}
 
+
 .aboutSharpSection{width: 100%;float: left;padding: 8px 0;position: relative;}
 .aboutSharpSection img{width: 100%;}
 .aboutSharpSection .aboutProduct{width:auto;position: absolute;right: 39%;bottom: 0px;}
@@ -285,6 +286,7 @@ font-weight: normal;
 .footerSocialStrip .leftSection li{width: auto;float:left;padding: 0 40px;border-right: 1px solid #a7a7a7;}
 .footerSocialStrip .leftSection li:first-child{padding-left: 0px;}
 .footerSocialStrip .leftSection li:last-child{border:0;}
+.footerSocialStrip .leftSection li{color: #a7a7a7;font-size:12px;}
 .footerSocialStrip .leftSection li a{color: #a7a7a7;font-size:12px;}
 .footerSocialStrip .leftSection li a:hover{color: #fcaaaa;}
 .footerSocialStrip .rightSection {width: 40%;float: right;text-align: right;}
@@ -468,6 +470,8 @@ font-weight: normal;
 .specificationSection table{width: 100%;float: left;background: #f4f4f4;}
 .specificationSection table th{width:33.33%;background: #ed3237;color: #fff;font-size: 16px;padding: 30px 0;border-right: 1px solid #f66669;}
 .specificationSection table td{width:33.33%;background: #f4f4f4;color: #5e5e5e;font-size: 14px;padding: 30px 10px;border-right: 1px solid #eaeaea;border-bottom: 1px solid #eaeaea;text-align: center;font-weight: bold;}
+.specificationSection.humidifierSpecification table th{width: 25%;}
+.specificationSection.humidifierSpecification table td{width: 25%;}
 .specificationSection .buyNowButton{width: 100%;float: left;text-align: center;margin: 40px 0;}
 .specificationSection .buyNowButton a{display: inline-block;color: #fff;background: #ed3237;font-size: 18px;padding: 20px 58px;}
 .specificationSection .buyNowButton a:hover{background: #000}
@@ -519,8 +523,63 @@ filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#fe4d52', en
 
 
 
+/*Air Humidifier*/
+.humidifierCompare{width: 100%;float: left;padding: 20px 0;}
+.humidifierCompare h2{font-size: 20px;}
+.humidifierCompare .specificationSection{width: 100%;float: left;margin-top: 20px;}
+
+.AirConditionRoomSection{width: 100%;float: left;padding: 30px 0}
+.AirConditionRoomSection > h2{font-size: 20px;padding-bottom: 15px;font-family: 'GOTHICB';text-align: center;}
+.AirConditionRoomSection .leftSection{width: 50%;float: left;margin-right: 2%;}
+.AirConditionRoomSection .leftSection iframe{width: 100%;height:400px;float: left;}
 
 
+.AirConditionRoomSection .rightSection{width: 48%;float: left;height: 400px;padding: 30px;color: #fff;
+background-color: #fe4d52;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fe4d52), to(#df262b));
+background-image: -webkit-linear-gradient(top, #fe4d52, #df262b);
+background-image: -moz-linear-gradient(top, #fe4d52, #df262b);
+background-image: -ms-linear-gradient(top, #fe4d52, #df262b);
+background-image: -o-linear-gradient(top, #fe4d52, #df262b);
+background-image: linear-gradient(top, #fe4d52, #df262b);
+filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#fe4d52', end-colourStr='#df262b');}
+.AirConditionRoomSection .rightSection h2{font-size: 18px;}
+.AirConditionRoomSection .rightSection p{font-size: 14px;padding: 15px 0;line-height: 20px;}
+
+.WhyHumidifier{width: 100%;float: left;padding: 20px 0;}
+.WhyHumidifier h2{font-size: 20px;padding-bottom:15px;}
+.WhyHumidifier p{font-size: 14px;padding-bottom:15px;}
+
+.convenienceSection{width: 100%;float: left;background:#e0e0e0;padding: 30px;}
+.convenienceSection .convenienceDetail{width: 100%;float: left;}
+.convenienceSection .convenienceDetail .leftSection{width: 50%;float: left;padding-right: 10px;}
+.convenienceSection .convenienceDetail .leftSection h2{font-size: 20px;}
+.convenienceSection .convenienceDetail .leftSection p{font-size: 14px;padding: 15px 0;line-height: 18px;}
+.convenienceSection .convenienceDetail .rightSection{width: 50%;float: left;}
+.convenienceSection .convenienceDetail .rightSection img{width: 100%}
+.convenienceSection .slick-next{width: 26px;height: 20px;background: url(../images/rightIcon.png)top left no-repeat;left: 40px;z-index: 999;}
+.convenienceSection .slick-prev{width: 26px;height: 20px;background: url(../images/leftIcon.png)top left no-repeat;left: 0px;z-index: 999;}
+
+/*Air Humidifier*/
+
+
+
+/*Video*/
+.video-box{width: 100%;float: left;background: #eeeeee;margin-bottom: 30px;}
+.video-box .leftSection{width: 70%;float: left;padding: 50px;}
+.video-box .leftSection h1{border-left: 9px solid #ed3237;padding-left: 20px;color: #01599a;font-family: 'GOTHIC';font-weight: normal;}
+.video-box .leftSection h1 span{display: block;}
+.video-box .leftSection p{margin-top: 25px;padding-left: 30px;font-size: 16px;line-height: 25px;}
+.video-box .rightSection{width: 30%;float: left;position: relative;}
+.video-box .rightSection > img{width: 100%;float: left;}
+.video-box .rightSection .videoIcon {position: absolute;top: 50%;left: 50%;transform:translate(-50%, -50%);cursor: pointer;}
+.video-box .rightSection .videoIcon img {position: relative;z-index: 2}
+.video-box .rightSection .pulse {height: 68px;width: 68px;border-radius: 50%;background-color: #ff0000;animation: pulse 1.5s infinite;position: absolute;bottom: -1px;right: 0;z-index: 1;}
+@keyframes pulse {
+  0% {box-shadow: 0 0 rgba(255, 0, 0, 0.5);}
+  100% {box-shadow: 0 0 0 15px rgba(255, 0, 0, 0);}
+}
+/*Video*/
 
 
 
@@ -586,6 +645,7 @@ transition: all 0.65s cubic-bezier(0.475, 0.425, 0, 0.995);position: relative;ov
 .consumerArticle #slick-1 .slick-dots li button, .consumerArticle #slick-1 .slick-dots li button:before {color: transparent;opacity: 0;}
 /* progress bar */
 .consumerArticle .slider-progress {width: 150px; height: 3px;background: #eee;position: absolute;bottom: -65px;margin: 0 auto;left: 40%;}
+.satisfyConsumerSection .slider-progress {width: 150px; height: 3px;background: #eee;position: absolute;bottom: -454px;margin: 0 auto;left: 40%;}
 .consumerArticle .slider-progress .progress {width: 0%;height: 3px;background: #ed3237;}
 .consumerArticle .slider-progress .firstcount{position: absolute;top: -10px;left: -20px;}
 .consumerArticle .slider-progress .lastcount{position: absolute;top: -10px;right: -20px;}
