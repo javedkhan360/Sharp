@@ -21,7 +21,7 @@ $(".accordionSection h2").click(function(){
   $(this).next().slideUp();
   return false; 
     }
-  $(".accordionContent").slideUp();
+  $(".accordianTabing").slideUp();
   $(".accordionSection h2").removeClass('active');
   $(this).addClass('active');
   $(this).next().slideDown();
