@@ -236,6 +236,35 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+// Header
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('.main-header').addClass('fixed-header');
+    }
+    else {
+        $('.main-header').removeClass('fixed-header');
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $('.center').slick({
   slidesToShow: 1,
   infinite: true,
@@ -276,6 +305,7 @@ $('.center').slick({
 
 $('.productSection').slick({
   slidesToShow: 4,
+  dots:true,
   infinite: true,
     responsive: [
     {
@@ -361,6 +391,133 @@ $('.certificateSection').slick({
     }
   ]
 });
+
+
+
+
+
+
+
+
+
+
+
+
+// Air mosquioto
+
+  $(document).ready(function(){
+  var $firststatus = $('.firstcount');
+  var $laststatus = $('.lastcount');
+
+  var $status = $('.pagingInfo');
+  var time = 2;
+  var $bar,
+      $slick,
+      isPause,
+      tick,
+      percentTime;
+ 
+  $slick = $('.LabSlider');
+
+  $slick.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+      //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+      var i = (currentSlide ? currentSlide : 0) + 1;
+      $firststatus.text(i);     
+      //$status.text(i + '/' + slick.slideCount);
+      $laststatus.text(slick.slideCount);
+  });
+
+  $slick.slick({
+    slidesToShow: 1,
+    draggable: true,
+    adaptiveHeight: false,
+    dots: false,
+    mobileFirst: true,
+    pauseOnDotsHover: true,
+     responsive: [
+     {
+      breakpoint: 1023,
+      settings: {
+        slidesToShow: 1,
+        arrows: true,
+        
+      }
+    },
+    {
+      breakpoint: 560,
+      settings: {
+        slidesToShow: 1,
+        arrows: true,
+        
+      }
+    },
+    {
+      breakpoint: 300,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+        centerMode: false,
+        
+      }
+    }
+  ]
+  });
+  
+  $bar = $('.slider-progress .progress');
+  
+  $('.slider-wrapper').on({
+    mouseenter: function() {
+      isPause = true;
+    },
+    mouseleave: function() {
+      isPause = false;
+    }
+  })
+  
+  function startProgressbar() {
+    resetProgressbar();
+    percentTime = 0;
+    isPause = false;
+    tick = setInterval(interval, 20);
+  }
+  
+  function interval() {
+    if(isPause === false) {
+      percentTime += 1 / (time+0.1);
+      $bar.css({
+        width: percentTime+"%"
+      });
+      if(percentTime >= 100)
+        {
+          $slick.slick('slickNext');
+          startProgressbar();
+        }
+    }
+  }  
+  
+  function resetProgressbar() {
+    $bar.css({
+     width: 0+'%' 
+    });
+    clearTimeout(tick);
+  }
+  
+  startProgressbar();
+  
+});
+// Air Mosquioto
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -474,8 +631,9 @@ $('.productSliderSection').slick({
   AOS.init();
 
 
-  $(window).load(function(){
+  $(function(){
   	$("body").css("opacity", "1")
+    $("body").css("transition-delay", "1s")
   	$("body").css("transition", "0.6s")
   })
 

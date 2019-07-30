@@ -107,9 +107,10 @@ body * {box-sizing: border-box;}
 .top-header li a{color: #cbccce;font-size: 12px;}
 .top-header li a:hover{color: #fff;}
 
-.main-header{width: 100%;float: left;padding: 0px 0px;}
+.main-header{width: 100%;float: left;padding: 0px 0px;background: #fff;transition: 0.6s}
+.fixed-header{position: fixed;top: 0;left: 0;z-index: 99999;box-shadow: 0 0 10px #ddd;transition: 0.6s}
 .main-header .logo{width: 30%;float: left;padding: 20px 0;}
-.main-header .rightMenu{width: 70%;float: left;text-align: right;}
+.main-header .rightMenu{width: 70%;float: right;text-align: right;}
 .main-header .rightMenu li{display: inline-block;padding:20px 0;padding-right: 50px;position: relative;transition: 0.6s}
 
 .main-header .rightMenu li ul.dropdown{width: 220px;position: absolute;z-index: 2;background: #ed3237;top: 65px;left: -40px;opacity: 0;visibility: hidden;}
@@ -209,6 +210,12 @@ font-weight: normal;
 .productRangeSection .productDescription:hover .arrow{right: 20px;}
 .productRangeSection .productDescription img.productImg{transition: 5.6s;}
 .productRangeSection .productDescription:hover img.productImg{transform: scale(3.2);transition: 10.6s;}
+/*.productRangeSection .slick-next{width: 26px;height: 20px;background: url(../images/rightIcon.png)top left no-repeat;right: -25px;}
+.productRangeSection .slick-prev{width: 26px;height: 20px;background: url(../images/leftIcon.png)top left no-repeat;left: -25px;z-index: 9999}*/
+.productRangeSection .slick-dots li button{background:#ddd;transition: 0.6s}
+.productRangeSection .slick-dots{bottom: -50px;}
+.productRangeSection .slick-dots li.slick-active button {background: #e02626;transition: 0.6s}
+
 
 .videoSection{width: 100%;float: left;margin-top: 85px;}
 .videoSection .leftSection{width: 59%;float: left;position: relative;z-index: 1}
@@ -388,6 +395,10 @@ font-weight: normal;
 .innerProductRange .productDescription img.productImg{transition: 5.6s;}
 .innerProductRange .productDescription:hover img.productImg{transform: scale(3.2);transition: 10.6s;}
 
+.innerProductRange .slick-dots li button{background:#ddd;transition: 0.6s}
+.innerProductRange .slick-dots{bottom: -50px;}
+.innerProductRange .slick-dots li.slick-active button {background: #e02626;transition: 0.6s}
+
 .whySharpSection{width: 100%;float: left;padding: 70px 0;text-align: center;}
 .whySharpSection h2{font-size: 45px;color: #01599a;font-family: 'GOTHIC';font-weight: 100;padding-bottom: 20px;}
 .whySharpSection p{font-size: 14px;line-height: 24px;padding-bottom: 20px;}
@@ -420,15 +431,16 @@ font-weight: normal;
 
 
 .air-mosquito-product-two{width: 100%;float: left;}
-.air-mosquito-product-two li{width: 50%;float:left;position: relative;}
+.air-mosquito-product-two li{width: 50%;float:left;position: relative;padding: 20px 10px 0;}
+.air-mosquito-product-two.air-mosquito-product-three li{width: 33.33%;float:left;position: relative;padding: 20px 10px 0;}
 .air-mosquito-product-two li > img{width: 100%;}
 .air-mosquito-product-two li .mosquito-product-info{position: absolute;top: 50px;left: 70px;}
 .air-mosquito-product-two li .mosquito-product-info h3{font-size: 20px;color: #01599a;}
 .air-mosquito-product-two li .mosquito-product-info a{font-size: 18px;color: #ed3237;font-weight: bold;margin-top: 15px;font-family: 'GOTHICB';display: block}
 .air-mosquito-product-two li .mosquito-product-info a img{margin-left: 10px;}
-.air-mosquito-product-two li .mosquito-productImg{width: 18%;position: absolute;bottom: 0;right: 60px;}
+.air-mosquito-product-two li .mosquito-productImg{width: 20%;position: absolute;bottom: 0;right: 60px;}
 
-.moquito-product-feature{width: 100%;float: left;}
+.moquito-product-feature{width: 100%;float: left;padding-top: 50px;}
 .moquito-product-feature .box{width: 33.20%;float: left;background-color: #f4f4f4;padding: 50px;margin-left: 2px;position: relative;
   background-image: linear-gradient(to right, #f3f3f3 , #f4f4f4);}
 .moquito-product-feature .box:nth-child(2){background-image: linear-gradient(to right, #e6e6e6 , #eeeeee);}
@@ -454,7 +466,7 @@ font-weight: normal;
 .LabSection iframe{width: 800px;height: 450px;}
 .LabSection h2{font-size: 20px;padding-bottom: 20px;}
 /* progress bar */
-.LabSection .slider-progress {width: 150px; height: 3px;background: #eee;position: absolute;bottom: 30px;margin: 0 auto;left: 40%;}
+.LabSection .slider-progress {width: 150px; height: 3px;background: #eee;position: absolute;bottom: -34px;margin: 0 auto;left: 40%;}
 .LabSection .slider-progress .progress {width: 0%;height: 3px;background: #ed3237;}
 .LabSection .slider-progress .firstcount{position: absolute;top: -10px;left: -20px;}
 .LabSection .slider-progress .lastcount{position: absolute;top: -10px;right: -20px;}

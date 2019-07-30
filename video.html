@@ -12,7 +12,8 @@
 </head>
 <body>
 <div class="mainContainer">
-	
+
+
 
 <div class="top-header">
 	<div class="container">
@@ -76,7 +77,6 @@
 					<ul class="dropdown">
 						<li><a href="javascript:;">Our Offices</a></li>
 						<li><a href="javascript:;">Dealer Locator</a></li>
-						<li><a href="javascript:;">Reach Us</a></li>
 					</ul>
 				</li>
 				<li>
@@ -123,6 +123,7 @@
 	</ul>
 </div>
 <!-- Mobile Menu end -->
+
 
 <div class="breadcrumb">
 	<div class="container">
@@ -195,6 +196,7 @@
 
 
 
+
 <div class="enquiryForm">
 	<div class="form">
 		<div class="closeButton"><img src="images/close.png"></div>
@@ -204,7 +206,7 @@
 		<input type="email" name="Email ID" placeholder="Email ID">
 		<input type="city" name="city" placeholder="City">
 		<select>
-			<option>Choose Services</option>
+			<option>Choose Products</option>
 			<option>For Home Products</option>
 			<option>For Business Solutions</option>
 		</select>
@@ -251,6 +253,7 @@
 			<li><a href="javascript:;">Press Release</a></li>
 			<li><a href="javascript:;">Videos</a></li>
 			<li><a href="javascript:;">Gallery</a></li>
+			<li><a href="javascript:;">CSR</a></li>
 		</ul>
 	</div>
 	<div class="footerOpation autoHeight">
@@ -323,14 +326,16 @@ searchBtn.addEventListener("click", expand);
 </script>
 
 <script type="text/javascript">
-	$(".navMenu").click(function(){
-		$(".main-header .rightMenu").css("top", "0px")
-		$(".main-header .rightMenu").css("tansition", "0.6s")
+	$(function(){
+		$(".enquerySection").click(function(){
+			$(".enquiryForm").fadeIn();
+			$("body").css("overflow", "hidden");
+		})
+		$(".closeButton").click(function(){
+			$(".enquiryForm").fadeOut();
+			$("body").css("overflow", "visible");
+		})
 	});
-	$(".closeButton").click(function(){
-		$(".main-header .rightMenu").css("top", "100%")
-		$(".main-header .rightMenu").css("transition", "0.6s")
-	})
 </script>
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Sharp Homepage</title>
+<title>Sharp</title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 <meta name="keywords" content="krisumi" />
 <link rel="stylesheet" href="css/slick-slider.css" />
@@ -76,7 +76,6 @@
 					<ul class="dropdown">
 						<li><a href="javascript:;">Our Offices</a></li>
 						<li><a href="javascript:;">Dealer Locator</a></li>
-						<li><a href="javascript:;">Reach Us</a></li>
 					</ul>
 				</li>
 				<li>
@@ -240,7 +239,7 @@
 			<div class="slick-slide productDescription"  data-aos="fade-right" data-aos-duration="800" data-aos-delay="1800">
 					<img class="productImg" src="images/product2.png">
 					<img class="productItem" src="images/product-item7.png">
-					<p>Small Home Appliance</p>
+					<p>Personal Grooming</p>
 					<img class="arrow" src="images/product-arrow.png">
 			</div>
 		</div>
@@ -467,7 +466,7 @@
 		<input type="email" name="Email ID" placeholder="Email ID">
 		<input type="city" name="city" placeholder="City">
 		<select>
-			<option>Choose Services</option>
+			<option>Choose Product</option>
 			<option>For Home Products</option>
 			<option>For Business Solutions</option>
 		</select>
@@ -514,6 +513,7 @@
 			<li><a href="javascript:;">Press Release</a></li>
 			<li><a href="javascript:;">Videos</a></li>
 			<li><a href="javascript:;">Gallery</a></li>
+			<li><a href="javascript:;">CSR</a></li>
 		</ul>
 	</div>
 	<div class="footerOpation autoHeight">
@@ -578,9 +578,11 @@ searchBtn.addEventListener("click", expand);
 	$(function(){
 		$(".enquerySection").click(function(){
 			$(".enquiryForm").fadeIn();
+			$("body").css("overflow", "hidden");
 		})
 		$(".closeButton").click(function(){
 			$(".enquiryForm").fadeOut();
+			$("body").css("overflow", "visible");
 		})
 	});
 </script>

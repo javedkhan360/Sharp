@@ -38,6 +38,7 @@
 					<ul class="dropdown">
 						<li><a href="javascript:;">Office Solutions</a></li>
 						<li><a href="javascript:;">Visual Solutions</a></li>
+						<li><a href="javascript:;">Solutions</a></li>
 					</ul>
 				</li>
 				<li><a href="javescript:;">For Home <span></span></a>
@@ -60,6 +61,13 @@
 						<li><a href="javascript:;">Certificates</a></li>
 					</ul>
 				</li>
+				<li><a href="javescript:;">Service Support <span></span></a>
+					<ul class="dropdown">
+						<li><a href="javascript:;">Sales</a></li>
+						<li><a href="javascript:;">Service</a></li>
+						<li><a href="javascript:;">Installation</a></li>
+					</ul>
+				</li>
 				<li><a href="javescript:;">About Us <span></span></a>
 					<ul class="dropdown">
 					<li><a href="javascript:;">Sharp History</a></li>
@@ -69,18 +77,10 @@
 					<li><a href="javascript:;">Environmental Policy</a></li>
 					</ul>
 				</li>
-				<li><a href="javescript:;">Service Support <span></span></a>
-					<ul class="dropdown">
-						<li><a href="javascript:;">Sales</a></li>
-						<li><a href="javascript:;">Service</a></li>
-						<li><a href="javascript:;">Installation</a></li>
-					</ul>
-				</li>
 				<li><a href="javescript:;">Contact Us <span></span></a>
 					<ul class="dropdown">
 						<li><a href="javascript:;">Our Offices</a></li>
 						<li><a href="javascript:;">Dealer Locator</a></li>
-						<li><a href="javascript:;">Reach Us</a></li>
 					</ul>
 				</li>
 				<li>
@@ -179,7 +179,7 @@
 					<h3>Air Purifier With <br> Mosquito Catcher</h3>
 					<a href="javascript:;">Know More<img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product1.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product5.png">
 			</li>
 			<li>
 				<img src="images/air-mosquito/mosquito-product2-bg.png">
@@ -187,7 +187,7 @@
 					<h3>Air Purifier With <br> Mosquito Catcher</h3>
 					<a href="javascript:;">Know More<img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product2.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product5.png">
 			</li>
 		</ul>
 	</div>
@@ -200,7 +200,7 @@
 <div class="container">
 	<div class="moquito-product-feature">
 		<div class="box">
-			<h3>3X <span>Triple Action</span></h3>
+			<h3 style="opacity: 0">3X <span>Triple Action</span></h3>
 			<img src="images/air-mosquito/feature-img1.png">
 			<ul>
 				<li>Plasmacluster</li>
@@ -442,8 +442,6 @@
 
 
 
-
-
 <div class="enquiryForm">
 	<div class="form">
 		<div class="closeButton"><img src="images/close.png"></div>
@@ -453,7 +451,7 @@
 		<input type="email" name="Email ID" placeholder="Email ID">
 		<input type="city" name="city" placeholder="City">
 		<select>
-			<option>Choose Services</option>
+			<option>Choose Product</option>
 			<option>For Home Products</option>
 			<option>For Business Solutions</option>
 		</select>
@@ -500,6 +498,7 @@
 			<li><a href="javascript:;">Press Release</a></li>
 			<li><a href="javascript:;">Videos</a></li>
 			<li><a href="javascript:;">Gallery</a></li>
+			<li><a href="javascript:;">CSR</a></li>
 		</ul>
 	</div>
 	<div class="footerOpation autoHeight">
@@ -542,13 +541,11 @@
 </div>
 
 
-
 </div>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/aos.js"></script>
-<script src="js/prallax.js"></script>
 
 
 <script type="text/javascript">
@@ -564,115 +561,14 @@ searchBtn.addEventListener("click", expand);
 
 
 <script type="text/javascript">
-	$(document).ready(function(){
-  var $firststatus = $('.firstcount');
-  var $laststatus = $('.lastcount');
-
-  var $status = $('.pagingInfo');
-  var time = 2;
-  var $bar,
-      $slick,
-      isPause,
-      tick,
-      percentTime;
- 
-  $slick = $('.LabSlider');
-
-	$slick.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-	    //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-	    var i = (currentSlide ? currentSlide : 0) + 1;
-	    $firststatus.text(i);	    
-	    //$status.text(i + '/' + slick.slideCount);
-	    $laststatus.text(slick.slideCount);
-	});
-
-  $slick.slick({
-    slidesToShow: 1,
-    draggable: true,
-    adaptiveHeight: false,
-    dots: false,
-    mobileFirst: true,
-    pauseOnDotsHover: true,
-     responsive: [
-     {
-      breakpoint: 1023,
-      settings: {
-        slidesToShow: 1,
-        arrows: true,
-        
-      }
-    },
-    {
-      breakpoint: 560,
-      settings: {
-        slidesToShow: 1,
-        arrows: true,
-        
-      }
-    },
-    {
-      breakpoint: 300,
-      settings: {
-        slidesToShow: 1,
-        arrows: false,
-        centerMode: false,
-        
-      }
-    }
-  ]
-  });
-  
-  $bar = $('.slider-progress .progress');
-  
-  $('.slider-wrapper').on({
-    mouseenter: function() {
-      isPause = true;
-    },
-    mouseleave: function() {
-      isPause = false;
-    }
-  })
-  
-  function startProgressbar() {
-    resetProgressbar();
-    percentTime = 0;
-    isPause = false;
-    tick = setInterval(interval, 20);
-  }
-  
-  function interval() {
-    if(isPause === false) {
-      percentTime += 1 / (time+0.1);
-      $bar.css({
-        width: percentTime+"%"
-      });
-      if(percentTime >= 100)
-        {
-          $slick.slick('slickNext');
-          startProgressbar();
-        }
-    }
-  }  
-  
-  function resetProgressbar() {
-    $bar.css({
-     width: 0+'%' 
-    });
-    clearTimeout(tick);
-  }
-  
-  startProgressbar();
-  
-});
-</script>
-
-<script type="text/javascript">
 	$(function(){
 		$(".enquerySection").click(function(){
 			$(".enquiryForm").fadeIn();
+			$("body").css("overflow", "hidden");
 		})
 		$(".closeButton").click(function(){
 			$(".enquiryForm").fadeOut();
+			$("body").css("overflow", "visible");
 		})
 	});
 </script>

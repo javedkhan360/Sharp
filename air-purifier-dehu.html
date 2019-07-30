@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Sharp Homepage</title>
+<title>Sharp</title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 <meta name="keywords" content="krisumi" />
 <link rel="stylesheet" href="css/slick-slider.css" />
@@ -81,7 +81,6 @@
 					<ul class="dropdown">
 						<li><a href="javascript:;">Our Offices</a></li>
 						<li><a href="javascript:;">Dealer Locator</a></li>
-						<li><a href="javascript:;">Reach Us</a></li>
 					</ul>
 				</li>
 				<li>
@@ -182,18 +181,18 @@
 			<li>
 				<img src="images/air-mosquito/mosquito-product1-bg.png">
 				<div class="mosquito-product-info">
-					<h3>Air Purifier With <br> Mosquito Catcher</h3>
+					<h3>Air Purifier With <br> Dehumidifier</h3>
 					<a href="javascript:;">Know More <img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product1.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product3.png">
 			</li>
 			<li>
 				<img src="images/air-mosquito/mosquito-product2-bg.png">
 				<div class="mosquito-product-info">
-					<h3>Air Purifier With <br> Mosquito Catcher</h3>
+					<h3>Air Purifier With <br> Dehumidifier</h3>
 					<a href="javascript:;">Know More <img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product2.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product3.png">
 			</li>
 		</ul>
 	</div>
@@ -412,6 +411,7 @@
 
 
 
+
 <div class="enquiryForm">
 	<div class="form">
 		<div class="closeButton"><img src="images/close.png"></div>
@@ -421,7 +421,7 @@
 		<input type="email" name="Email ID" placeholder="Email ID">
 		<input type="city" name="city" placeholder="City">
 		<select>
-			<option>Choose Services</option>
+			<option>Choose Product</option>
 			<option>For Home Products</option>
 			<option>For Business Solutions</option>
 		</select>
@@ -468,6 +468,7 @@
 			<li><a href="javascript:;">Press Release</a></li>
 			<li><a href="javascript:;">Videos</a></li>
 			<li><a href="javascript:;">Gallery</a></li>
+			<li><a href="javascript:;">CSR</a></li>
 		</ul>
 	</div>
 	<div class="footerOpation autoHeight">
@@ -502,7 +503,7 @@
 	</div>
 	<div class="leftSection">
 		<ul>
-			<li>Copyright 2019 by Sharp Electronics Corporation.</li>
+			<li><a href="javascript:;">Copyright 2019 by Sharp Electronics Corporation.</a></li>
 			<li><a href="javascript:;">Privacy Policy/Your Privacy Rights</a></li>
 			<li><a href="javascript:;">Terms Of Use</a></li>
 		</ul>
@@ -638,9 +639,11 @@ searchBtn.addEventListener("click", expand);
 	$(function(){
 		$(".enquerySection").click(function(){
 			$(".enquiryForm").fadeIn();
+			$("body").css("overflow", "hidden");
 		})
 		$(".closeButton").click(function(){
 			$(".enquiryForm").fadeOut();
+			$("body").css("overflow", "visible");
 		})
 	});
 </script>

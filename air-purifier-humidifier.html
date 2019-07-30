@@ -17,8 +17,9 @@
 </head>
 <body>
 <div class="mainContainer">
+
 <div class="top-header">
-	<div>
+	<div class="container">
 		<ul>
 			<li><img src="images/locationIcon.png"><a href="javascript:;"> dealer locater</a></li>
 			<li><img src="images/emailIcon.png"><a href="javascript:;"> Email</a></li>
@@ -79,7 +80,6 @@
 					<ul class="dropdown">
 						<li><a href="javascript:;">Our Offices</a></li>
 						<li><a href="javascript:;">Dealer Locator</a></li>
-						<li><a href="javascript:;">Reach Us</a></li>
 					</ul>
 				</li>
 				<li>
@@ -177,23 +177,31 @@
 </div>
 
 <div class="container">
-	<div class="air-mosquito-product-two">
+	<div class="air-mosquito-product-two air-mosquito-product-three">
 		<ul>
 			<li>
 				<img src="images/air-mosquito/mosquito-product1-bg.png">
 				<div class="mosquito-product-info">
-					<h3>Air Purifier With <br> Mosquito Catcher</h3>
+					<h3>Air Purifier With <br> Humidifier</h3>
 					<a href="javascript:;">Know More <img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product1.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product6.png">
 			</li>
 			<li>
 				<img src="images/air-mosquito/mosquito-product2-bg.png">
 				<div class="mosquito-product-info">
-					<h3>Air Purifier With <br> Mosquito Catcher</h3>
+					<h3>Air Purifier With <br> Humidifier</h3>
 					<a href="javascript:;">Know More <img src="images/air-mosquito/red-arrow.png"></a>
 				</div>
-				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product2.png">
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product6.png">
+			</li>
+			<li>
+				<img src="images/air-mosquito/mosquito-product2-bg.png">
+				<div class="mosquito-product-info">
+					<h3>Air Purifier With <br> Humidifier</h3>
+					<a href="javascript:;">Know More <img src="images/air-mosquito/red-arrow.png"></a>
+				</div>
+				<img class="mosquito-productImg" src="images/air-mosquito/mosquito-product6.png">
 			</li>
 		</ul>
 	</div>
@@ -485,6 +493,7 @@
 
 
 
+
 <div class="enquiryForm">
 	<div class="form">
 		<div class="closeButton"><img src="images/close.png"></div>
@@ -494,7 +503,7 @@
 		<input type="email" name="Email ID" placeholder="Email ID">
 		<input type="city" name="city" placeholder="City">
 		<select>
-			<option>Choose Services</option>
+			<option>Choose Product</option>
 			<option>For Home Products</option>
 			<option>For Business Solutions</option>
 		</select>
@@ -541,6 +550,7 @@
 			<li><a href="javascript:;">Press Release</a></li>
 			<li><a href="javascript:;">Videos</a></li>
 			<li><a href="javascript:;">Gallery</a></li>
+			<li><a href="javascript:;">CSR</a></li>
 		</ul>
 	</div>
 	<div class="footerOpation autoHeight">
@@ -711,9 +721,11 @@ searchBtn.addEventListener("click", expand);
 	$(function(){
 		$(".enquerySection").click(function(){
 			$(".enquiryForm").fadeIn();
+			$("body").css("overflow", "hidden");
 		})
 		$(".closeButton").click(function(){
 			$(".enquiryForm").fadeOut();
+			$("body").css("overflow", "visible");
 		})
 	});
 </script>
